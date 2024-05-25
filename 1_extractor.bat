@@ -1,6 +1,6 @@
 @ECHO off
 cls
-./7_reverter
+call ./7_reverter.bat
 
 :start
 ECHO Pull Scripts for: 
