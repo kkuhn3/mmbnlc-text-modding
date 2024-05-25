@@ -67,3 +67,5 @@ if exist "C:\Program Files (x86)\Steam\steamapps\common\MegaMan_BattleNetwork_Le
 	DEL /s "C:\Program Files (x86)\Steam\steamapps\common\MegaMan_BattleNetwork_LegacyCollection_Vol%vol%\exe\data\%exeZ%.dat"
 	RENAME "C:\Program Files (x86)\Steam\steamapps\common\MegaMan_BattleNetwork_LegacyCollection_Vol%vol%\exe\data\%exeZ%.dat.bak" "%exeZ%.dat"
 )
+
+if not '%~1'=='nopause' pause

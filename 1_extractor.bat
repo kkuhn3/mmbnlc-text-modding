@@ -1,22 +1,26 @@
 @ECHO off
 cls
-call ./7_reverter.bat
+call ./7_reverter.bat nopause
+set "param1=%~1"
 
 :start
-ECHO Pull Scripts for: 
-ECHO 0. MMBN 1
-ECHO 1. MMBN 2
-ECHO 2. MMBN 3 White
-ECHO 3. MMBN 3 Blue
-ECHO 4. MMBN 4 Red Sun
-ECHO 5. MMBN 4 Blue Moon
-ECHO 6. MMBN 5 Protoman
-ECHO 7. MMBN 5 Colonel
-ECHO 8. MMBN 6 Gregar
-ECHO 9. MMBN 6 Falzer
 set choice=
-set /p "choice=Enter Number 0-9: "
-if not '%choice%'=='' set choice=%choice:~0,1%
+if '%param1%'=='' (
+	ECHO Pull Scripts for: 
+	ECHO 0. MMBN 1
+	ECHO 1. MMBN 2
+	ECHO 2. MMBN 3 White
+	ECHO 3. MMBN 3 Blue
+	ECHO 4. MMBN 4 Red Sun
+	ECHO 5. MMBN 4 Blue Moon
+	ECHO 6. MMBN 5 Protoman
+	ECHO 7. MMBN 5 Colonel
+	ECHO 8. MMBN 6 Gregar
+	ECHO 9. MMBN 6 Falzer
+	set /p "choice=Enter Number 0-9: "
+) else (
+	set choice=%param1%
+)
 if '%choice%'=='0' goto MMBN1
 if '%choice%'=='1' goto MMBN2
 if '%choice%'=='2' goto MMBN3W
@@ -28,6 +32,7 @@ if '%choice%'=='7' goto MMBN5C
 if '%choice%'=='8' goto MMBN6G
 if '%choice%'=='9' goto MMBN6F
 ECHO "%choice%" is not valid, try again
+set param1=
 goto start
 
 :MMBN1
@@ -95,4 +100,4 @@ ROBOCOPY "C:\Program Files (x86)\Steam\steamapps\common\MegaMan_BattleNetwork_Le
 "C:\Program Files\7-Zip\7z.exe" x .\2_extracted\%exeZ%.dat -o.\2_extracted
 python3 .\MegamanBNLC_Scripts\extract_mpak.py .\2_extracted\%exeZ%\data\msg\message_eng.map .\2_extracted\%exeZ%\data\msg\message_eng.mpak .\2_extracted\message_eng_msg
 .\TextPet\TextPet.exe Load-Plugins .\TextPet\plugins Game %game% Read-Text-Archives .\2_extracted\message_eng_msg --format msg Write-Text-Archives .\2_extracted\message_eng.tpl --single --format tpl Write-Text-Archives .\2_extracted\message_eng_tpl --format tpl
-pause
+if '%param1%'=='' pause
