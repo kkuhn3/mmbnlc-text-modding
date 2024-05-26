@@ -1,0 +1,308 @@
+ID,Internal Id,Name,Codes,Allowed,Banned
+1,1,Cannon,"A, B, C, D, E, *","A, B, C, D, E, *",
+2,2,HiCannon,"H, I, J, K, L, *","I, J, K, L, *",H
+3,3,M-Cannon,"O, P, Q, R, S","P, Q, R, S",O
+4,4,AirShot1,*,*,
+5,5,AirShot2,*,*,
+6,6,AirShot3,*,*,
+7,7,LavaCan1,"A, G, S, T, V","A, G, S, V",T
+8,8,LavaCan2,"B, D, F, M, O","B, D, F, M",O
+9,9,LavaCan3,"E, H, J, R, W","E, H, J, W",R
+10,114,Volcano,"A, G, J, Y, Z","A, J, Z","G, Y"
+11,10,ShotGun,"B, F, J, N, T","B, J, T","F, N"
+12,11,V-Gun,"D, G, L, P, V","D, L","G, P, V"
+13,12,SideGun,"C, H, M, S, Y","M, S","C, H, Y"
+14,13,Spreader,"M, N, O, P, Q, *","M, N, O, P, Q, *",
+15,14,Bubbler,"A, C, D, E, P","C, D, E, P",A
+16,15,Bub-V,"D, E, F, S, V","D, E, F, V",S
+17,16,BublSide,"B, E, F, G, R","B, E, F, G",R
+18,17,HeatShot,"B, H, I, J, P","H, I, J, P",B
+19,18,Heat-V,"F, I, J, K, V","F, I, J, K, V",
+20,19,HeatSide,"C, J, K, L, T","C, J, K, L, T",
+21,20,MiniBomb,"B, G, L, O, S, *","B, L, S, *","G, O"
+22,21,SnglBomb,"D, F, H, J, T, *","D, F, H, *","J, T"
+23,22,DublBomb,"A, C, H, K, Q, *","A, C, H, K, *",Q
+24,23,TrplBomb,"E, I, N, P, W","E, I, N, P",W
+25,24,CannBall,"A, D, F, L, P, *","A, F, P, *","D, L"
+26,25,IceBall,"F, I, M, Q, S, *","M, *","F, I, Q, S"
+27,26,LavaBall,"B, C, H, N, W, *","C, H, N, *","B, W"
+28,27,BlkBomb1,"F, L, N, P, Z","N, P","F, L, Z"
+29,28,BlkBomb2,"D, I, K, Q, S","K, S","D, I, Q"
+30,29,BlkBomb3,"C, G, L, U, Y","G, L","C, U, Y"
+31,30,Sword,"E, H, L, S, Y","E, L, S, Y",H
+32,31,WideSwrd,"C, E, L, Q, Y","C, E, L, Y",Q
+33,32,LongSwrd,"E, I, L, R, Y","E, I, L, R, Y",
+34,33,FireSwrd,"F, N, P, R, U","F, N, P, R, U",
+35,34,AquaSwrd,"A, H, N, P, T","A, H, N, P, T",
+36,35,ElecSwrd,"E, K, N, P, V","N, P, V","E, K"
+37,36,BambSwrd,"B, L, N, P, W","N, P","B, L, W"
+38,37,CustSwrd,"B, F, R, V, Z","B, V, Z","F, R"
+39,38,VarSwrd,"B, C, D, E, F","B, C, D, F",E
+40,42,AirSwrd,"C, E, H, J, R, *","H, *","C, E, J, R"
+41,39,StepSwrd,"L, M, N, O, P","L, M, N, O, P",
+42,40,StepCros,"P, Q, R, S, T","P, Q, R, S, T",
+43,43,Slasher,"B, D, G, R, S","B, D, S","G, R"
+44,44,ShockWav,"D, H, J, L, R","D, J, R","H, L"
+45,45,SonicWav,"G, I, M, S, W","G, I, M, S",W
+46,46,DynaWave,"E, N, Q, T, V","Q, T, V","E, N"
+47,113,BigWave,"E, J, M, P, Y","E, J, P","M, Y"
+48,47,GutPunch,"B, C, D, E, F","B, C, D, E, F",
+49,48,GutStrgt,"O, P, Q, R, S","O, P, Q, R, S",
+50,49,GutImpct,"G, H, I, J, K","G, H, I, J",K
+51,53,DashAtk,"C, D, G, J, Z, *","C, G, Z, *","D, J"
+52,54,Burner,"B, F, Q, S, W","B, Q, S","F, W"
+53,115,Condor,"B, I, L, S, Z","B, I, S","L, Z"
+54,116,Burning,"A, F, L, R, S","A, L, R","F, S"
+55,66,ZapRing1,"A, M, P, Q, S","A, M, P, S",Q
+56,67,ZapRing2,"B, G, N, R, W","B, G, R, W",N
+57,68,ZapRing3,"C, E, O, T, Z","C, E, O, T, Z",
+58,90,IceWave1,"A, K, M, Q, W, *","A, K, Q, W, *",M
+59,91,IceWave2,"D, H, L, P, R, *","D, H, P, *","L, R"
+60,92,IceWave3,"C, D, J, R, V","C, D, J, R",V
+61,69,Yo-Yo1,"C, D, E, F, G","D, E, F, G",C
+62,70,Yo-Yo2,"H, I, J, K, L","H, I, J, K",L
+63,71,Yo-Yo3,"M, N, O, P, Q","M, N, O, Q",P
+64,50,AirStrm1,"A, F, H, O, S","A, F, S","H, O"
+65,51,AirStrm2,"C, G, H, M, W","C, G, H, M",W
+66,52,AirStrm3,"A, G, I, N, V","A, G, I, N",V
+67,96,Arrow1,"B, E, M, Q, T","B, E, Q, T",M
+68,97,Arrow2,"F, R, S, U, Z","F, S, U, Z",R
+69,98,Arrow3,"A, H, J, N, P","A, H, N, P",J
+70,58,Ratton1,"A, C, F, H, J","A, C, F, H",J
+71,59,Ratton2,"A, C, F, N, O","A, C, F, O",N
+72,60,Ratton3,"A, C, F, R, S","A, F, R, S",C
+73,117,FireRatn,"B, F, H, M, Y","B, F, H","M, Y"
+74,61,Wave,"E, I, L, S, T","E, I, L","S, T"
+75,62,RedWave,"B, F, J, R, U","F, J, R","B, U"
+76,63,MudWave,"D, G, M, V, Z","D, M, V","G, Z"
+77,65,Tornado,"C, L, R, T, U","C, L, T, U",R
+78,72,Spice1,"B, D, I, S, Z, *","B, I, S, *","D, Z"
+79,73,Spice2,"C, F, I, K, R","C, I, K, R",F
+80,74,Spice3,"D, F, J, O, Q","D, F, J, O",Q
+81,110,Shake1,"E, G, R, S, U","G, R, S, U",E
+82,111,Shake2,"B, F, I, L, Q","B, F, L","I, Q"
+83,112,Shake3,"D, M, R, T, Z","M, R, T","D, Z"
+84,148,NoBeam1,"C, F, G, K, W","C, F, K","G, W"
+85,149,NoBeam2,"E, I, S, U, Y","I, S, U, Y",E
+86,150,NoBeam3,"H, M, V, W, Z","M, W, Z","H, V"
+87,64,Hammer,"B, G, L, P, T, *","B, P, T","G, L, *"
+88,107,Geyser,"B, C, L, S, W","B, C, W","L, S"
+89,78,Rope1,"D, G, J, M, O, *","D, G, J, *","M, O"
+90,79,Rope2,"E, G, O, T, U","E, G, U","O, T"
+91,80,Rope3,"H, I, T, U, V","H, T, U","I, V"
+92,84,Boomer1,"F, H, J, M, T, *","F, H, T, *","J, M"
+93,85,Boomer2,"E, I, K, N, V, *","I, K, N, V, *",E
+94,86,Boomer3,"L, O, P, U, Z","L, P, U, Z",O
+95,108,PoisMask,"A, F, N, Q, V, *","A, F, V, *","N, Q"
+96,109,PoisFace,"A, N, Q, V, W, *","A, V, W, *","N, Q"
+97,145,RockArm1,"D, H, J, O, P, *","H, O, P, *","D, J"
+98,146,RockArm2,"G, M, P, S, V, *","M, P, V, *","G, S"
+99,147,RockArm3,"C, I, L, T, Z","C, I, L, Z",T
+100,104,CrsShld1,"A, C, H, L, P, *","C, H, L, *","A, P"
+101,105,CrsShld2,"B, C, L, S, T","B, C, S","L, T"
+102,106,CrsShld3,"C, E, L, N, R","C, E, N","L, R"
+103,81,Magnum1,"A, C, H, T, V","A, C, H, V",T
+104,82,Magnum2,"B, G, N, O, Z","B, N, O","G, Z"
+105,83,Magnum3,"D, F, I, S, W","D, F, I, W",S
+106,93,Plasma1,"B, D, J, R, T","D, J, R","B, T"
+107,94,Plasma2,"A, G, K, M, Q","A, K, M, Q",G
+108,95,Plasma3,"F, I, N, P, S","I, N, P, S",F
+109,87,RndmMetr,"E, I, S, V, Z","E, I, S, V",Z
+110,88,HoleMetr,"C, H, J, N, Q","C, H, J, Q",N
+111,89,ShotMetr,"A, D, F, S, Y","A, D, S","F, Y"
+112,154,Needler1,"I, J, M, R, S","I, J, R","M, S"
+113,155,Needler2,"F, H, M, T, V","H, T","F, M, V"
+114,156,Needler3,"D, L, O, U, Z","D, L, U, Z",O
+115,55,Totem1,"G, H, M, O, V","G, H, M, O, V",
+116,56,Totem2,"A, C, E, T, Z","A, C, E, T, Z",
+117,57,Totem3,"D, I, K, N, Q","D, I, K, N, Q",
+118,101,Sensor1,"C, K, L, O, P","C, K, L, O",P
+119,102,Sensor2,"A, G, H, N, S","G, H, S","A, N"
+120,103,Sensor3,"B, E, J, O, P","B, E, J","O, P"
+121,133,MetaGel1,"B, C, D, K, Y","B, C, D, K",Y
+122,134,MetaGel2,"E, F, G, P, S","E, F, G, P, S",
+123,135,MetaGel3,"G, H, S, T, U","S, T, U","G, H"
+124,151,Pawn,"B, E, N, R, Y","B, E, Y","N, R"
+125,152,Knight,"C, H, M, U, V","C, H, U","M, V"
+126,153,Rook,"D, F, N, Q, U, *","D, F, Q, *","N, U"
+127,132,Team1,"A, C, E, T, Z, *","A, C, Z, *","E, T"
+128,169,Team2,"D, L, P, S, Z, *","D, P, *","L, S, Z"
+129,99,TimeBomb,"J, K, L, M, N","J, K, L, N",M
+130,100,Mine,"A, D, L, R, S, *","R, S, *","A, D, L"
+131,75,Lance,"D, E, H, R, Z","E, H, R, Z",D
+132,131,Snake,"D, E, I, R, Y","D, E, R, Y",I
+133,118,Guard,*,*,
+134,119,PanlOut1,"A, B, D, L, S, *","A, B, *","D, L, S"
+135,120,PanlOut3,"C, E, N, R, Y, *","C, *","E, N, R, Y"
+136,129,PanlGrab,"A, H, L, S, Y, *","A, *","H, L, S, Y"
+137,130,AreaGrab,"E, L, R, S, Y, *","E, L, *","R, S, Y"
+138,136,GrabBack,"A, E, I, K, N","A, K","E, I, N"
+139,137,GrabRvng,"C, G, P, R, Y","C, P, Y","G, R"
+140,141,RockCube,"A, C, E, H, R, *","A, *","C, E, H, R"
+141,142,Prism,"H, J, K, Q, W","H, Q","J, K, W"
+142,143,Wind,"A, E, H, O, S, *","S, *","A, E, H, O"
+143,144,Fan,"A, G, L, R, T, *","A, L, *","G, R, T"
+144,170,Fanfare,"C, E, G, L, Y, *","E, G, Y, *","C, L"
+145,171,Discord,"D, F, N, T, Z, *","D, F, N, *","T, Z"
+146,172,Timpani,"A, N, Q, U, W, *","A, N, Q, U, *",W
+147,121,Recov10,"A, C, E, G, L, *","A, C, L","E, G, *"
+148,122,Recov30,"B, D, F, H, M, *","D, F, *","B, H, M"
+149,123,Recov50,"C, E, G, I, N, *","C, E, G, *","I, N"
+150,124,Recov80,"D, F, H, J, O, *","D, J, *","F, H, O"
+151,125,Recov120,"O, Q, S, U, W, *","O, S, W, *","Q, U"
+152,126,Recov150,"N, P, R, T, V, *","N, P, V, *","R, T"
+153,127,Recov200,"M, N, U, V, W","M, N","U, V, W"
+154,128,Recov300,"O, R, V, W, Z","O, R","V, W, Z"
+155,159,Repair,"A, C, D, F, S, *","A, S, *","C, D, F"
+156,157,SloGauge,"A, C, R, S, Z, *",*,"A, C, R, S, Z"
+157,158,FstGauge,"B, E, J, R, Y, *",*,"B, E, J, R, Y"
+158,41,Panic,"A, C, L, R, Z","C, L","A, R, Z"
+159,138,Geddon1,"D, J, M, O, S, *","D, J, *","M, O, S"
+160,139,Geddon2,"F, H, N, O, W","F, W","H, N, O"
+161,140,Geddon3,"C, M, U, W, Y","C, U","M, W, Y"
+162,194,CopyDmg,"A, F, H, L, Y, *","F, *","A, H, L, Y"
+163,160,Invis,"B, E, F, R, S, *",*,"B, E, F, R, S"
+164,165,Shadow,"H, J, N, Q, U, *","H, J, N, Q, *",U
+165,162,Mole1,"A, D, H, J, O, *","A, D, J, O, *",H
+166,163,Mole2,"B, G, I, K, R, *","B, G, I, K, *",R
+167,164,Mole3,"C, E, L, M, Q","C, E, L, M",Q
+168,168,AirShoes,"H, I, N, U, Y, *","N, *","H, I, U, Y"
+169,173,Barrier,"C, E, L, R, S, *","E, L, R, *","C, S"
+170,174,Barr100,"E, J, M, R, T, *","E, R","J, M, T, *"
+171,175,Barr200,"E, F, H, R, U","E, R","F, H, U"
+172,176,Aura,"F, I, S, U, Y","F, I","S, U, Y"
+173,177,NrthWind,"A, C, N, S, Z","A, C","N, S, Z"
+174,166,Mettaur,"L, T","L, T",
+175,167,Bunny,"B, R","B, R",
+176,186,Spikey,"E, G","E, G",
+177,185,Swordy,"S, W","S, W",
+178,188,Jelly,"E, Y","E, Y",
+179,187,Mushy,"C, H","C, H",
+180,77,Momogra,"G, R","G, R",
+181,189,KillrEye,"E, K","E, K",
+182,76,Scuttlst,"A, M","A, M",
+183,161,Hole,"A, B, S, T, Z, *","Z, *","A, B, S, T"
+184,178,HolyPanl,"E, J, L, R, U, *","E, J, R, U, *",L
+185,179,LavaStge,"A, E, R, T, Y, *","A, T","E, R, Y, *"
+186,180,IceStage,"C, G, M, Q, T, *","C, *","G, M, Q, T"
+187,181,GrassStg,"E, J, R, W, Z, *","E, R","J, W, Z, *"
+188,182,SandStge,"B, C, Q, U, W","B, C, W","Q, U"
+189,183,MetlStge,"D, G, M, O, S","D, M","G, O, S"
+190,184,Snctuary,"A, C, E, L, S","A, C","E, L, S"
+191,191,AntiDmg,"C, F, H, M, S","M, S","C, F, H"
+192,192,AntiSwrd,"B, K, R, U, Y","K, Y","B, R, U"
+193,190,AntiNavi,"A, M, N, V, W","M, N","A, V, W"
+194,193,AntiRecv,"B, D, E, O, S","B, D","E, O, S"
+195,195,Atk+10,*,*,
+196,196,Fire+30,*,*,
+197,197,Aqua+30,*,*,
+198,198,Elec+30,*,*,
+199,199,Wood+30,*,*,
+200,200,Navi+20,*,*,
+601,202,Muramasa,M,M,
+602,207,HeroSwrd,P,P,
+603,208,ZeusHamr,Z,Z,
+604,215,StandOut,"P, *","P, *",
+605,273,Salamndr,"S, *","S, *",
+606,216,WatrLine,"C, *","C, *",
+607,274,Fountain,"D, *","D, *",
+608,217,Lightning,"L, *","L, *",
+609,275,Bolt,"T, *","T, *",
+610,218,GaiaSwrd,"G, *","G, *",
+611,276,GaiaBlad,"G, *","G, *",
+612,212,Meteors,R,R,
+613,203,Guardian,O,O,
+614,204,Anubis,A,A,
+615,209,GodStone,S,S,
+616,210,OldWood,W,W,
+617,214,Jealousy,J,J,
+618,213,Poltrgst,G,G,
+619,201,LifeAura,D,D,
+620,211,FullCust,*,*,
+621,205,Atk+30,*,*,
+622,206,Navi+40,*,*,
+623,219,Roll,R,,R
+624,220,Roll V2,R,,R
+625,221,Roll V3,R,,R
+626,222,GutsMan,G,,G
+627,223,GutsMan V2,G,,G
+628,224,GutsMan V3,G,,G
+629,225,GutsMan V4,G,,G
+630,227,ProtoMan,B,,B
+631,228,ProtoMn V2,B,,B
+632,229,ProtoMn V3,B,,B
+633,230,ProtoMn V4,B,,B
+634,232,FlashMan,F,,F
+635,233,FlashMn V2,F,,F
+636,234,FlashMn V3,F,,F
+637,235,FlashMn V4,F,,F
+638,237,BeastMan,B,,B
+639,238,BeastMn V2,B,,B
+640,239,BeastMn V3,B,,B
+641,240,BeastMn V4,B,,B
+642,242,BubblMan,B,,B
+643,243,BubblMn V2,B,,B
+644,244,BubblMn V3,B,,B
+645,245,BubblMn V4,B,,B
+646,247,DesrtMan,D,,D
+647,248,DesrtMn V2,D,,D
+648,249,DesrtMn V3,D,,D
+649,250,DesrtMn V4,D,,D
+650,252,PlantMan,P,,P
+651,253,PlantMn V2,P,,P
+652,254,PlantMn V3,P,,P
+653,255,PlantMn V4,P,,P
+654,257,FlamMan,F,,F
+655,258,FlamMan V2,F,,F
+656,259,FlamMan V3,F,,F
+657,260,FlamMan V4,F,,F
+658,262,DrillMan,D,,D
+659,263,DrillMn V2,D,,D
+660,264,DrillMn V3,D,,D
+661,265,DrillMn V4,D,,D
+662,267,MetalMan,M,,M
+663,268,MetalMn V2,M,,M
+664,269,MetalMn V3,M,,M
+665,270,MetalMn V4,M,,M
+666,277,KingMan,K,,K
+667,278,KingMan V2,K,,K
+668,279,KingMan V3,K,,K
+669,280,KingMan V4,K,,K
+670,282,MistMan,M,,M
+671,283,MistMan V2,M,,M
+672,284,MistMan V3,M,,M
+673,285,MistMan V4,M,,M
+674,287,BowlMan,B,,B
+675,288,BowlMan V2,B,,B
+676,289,BowlMan V3,B,,B
+677,290,BowlMan V4,B,,B
+678,292,DarkMan,D,,D
+679,293,DarkMan V2,D,,D
+680,294,DarkMan V3,D,,D
+681,295,DarkMan V4,D,,D
+682,297,JapanMan,Y,,Y
+683,298,JapanMn V2,Y,,Y
+684,299,JapanMn V3,Y,,Y
+685,300,JapanMn V4,Y,,Y
+901,303,FoldrBak,*,,*
+902,311,Bass+,X,X,
+903,309,DarkAura,A,A,
+904,302,DeltaRay,Z,,Z
+905,310,AlphArmΩ,V,,V
+906,226,GutsManV5,G,,G
+907,231,ProtoMnV5,P,,P
+908,236,FlashMnV5,F,,F
+909,241,BeastMnV5,B,,B
+910,246,BubblMnV5,B,,B
+911,251,DesrtMnV5,D,,D
+912,256,PlantMnV5,P,,P
+913,261,FlamManV5,F,,F
+914,266,DrillMnV5,D,,D
+915,271,MetalMnV5,M,,M
+916,281,KingManV5,K,,K
+917,286,MistManV5,M,,M
+918,291,BowlManV5,B,,B
+919,296,DarkManV5,D,,D
+920,301,JapanMnV5,Y,,Y
+S01,272,Punk,P,,P
+S02,312,BassGS,X,X,
