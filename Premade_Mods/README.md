@@ -17,7 +17,7 @@ Double click `apply.bat`.
 ### [mmbn3b_saveEditor](./mmbn3b_saveEditor)
 
 BN3  Blue  
-Adds a menu screen to the bookcase in Lan's room. This menu allows the player to obtain all chips, all chips allowed in HZ Star, max zenny, or max bug frags. Intended to be used as a PVP bootstrapper. 
+Adds a menu screen to the bookcase in Lan's room. This menu allows the player to obtain all chips, all chips allowed in [HZ Star](http://kpow2.com/hz-star/rules.html), max zenny, or max bug frags. Intended to be used as a PVP bootstrapper. 
 
 ### [mmbn3w_bookcaseExample](./mmbn3w_bookcaseExample)
 
@@ -27,4 +27,4 @@ Updates the bookcase in Lan's house to provide a short exchange about Brian Jacq
 ### [mmbn3w_saveEditor](./mmbn3w_saveEditor)
 
 BN3 White  
-Adds a menu screen to the bookcase in Lan's room. This menu allows the player to obtain all chips, all chips allowed in HZ Star, max zenny, or max bug frags. Intended to be used as a PVP bootstrapper. 
+Adds a menu screen to the bookcase in Lan's room. This menu allows the player to obtain all chips, all chips allowed in [HZ Star](http://kpow2.com/hz-star/rules.html), max zenny, or max bug frags. Intended to be used as a PVP bootstrapper. 
