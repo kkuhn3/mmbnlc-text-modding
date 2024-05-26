@@ -100,4 +100,5 @@ ROBOCOPY "C:\Program Files (x86)\Steam\steamapps\common\MegaMan_BattleNetwork_Le
 "C:\Program Files\7-Zip\7z.exe" x .\2_extracted\%exeZ%.dat -o.\2_extracted
 python3 .\MegamanBNLC_Scripts\extract_mpak.py .\2_extracted\%exeZ%\data\msg\message_eng.map .\2_extracted\%exeZ%\data\msg\message_eng.mpak .\2_extracted\message_eng_msg
 .\TextPet\TextPet.exe Load-Plugins .\TextPet\plugins Game %game% Read-Text-Archives .\2_extracted\message_eng_msg --format msg Write-Text-Archives .\2_extracted\message_eng.tpl --single --format tpl Write-Text-Archives .\2_extracted\message_eng_tpl --format tpl
+MKDIR .\4_editted\
 if '%param1%'=='' pause

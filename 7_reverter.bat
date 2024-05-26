@@ -2,8 +2,7 @@
 cls
 
 RMDIR /s /q .\2_extracted 2>nul
-RMDIR /s /q .\4_editted\message_eng_msg 2>nul
-DEL /s /q .\4_editted\*
+RMDIR /s /q .\4_editted 2>nul
 RMDIR /s /q .\6_repacked 2>nul
 
 set "vol=1"
