@@ -14,7 +14,10 @@ Double click `apply.bat`.
 
 ## Available Edits
 
-### [mmnb3w_bookcaseExample](./mmnb3w_bookcaseExample)
+### [mmbn3w_bookcaseExample](./mmbn3w_bookcaseExample)
 
 Updates the bookcase in Lan's house to provide a short exchange about Brian Jacques novels. 
 
+### [mmbn3w_saveEditor](./mmbn3w_saveEditor)
+
+Adds a menu screen to the bookcase in Lan's room. This menu allows the player to obtain all chips, all chips allowed in HZ Star, max zenny, or max bug frags. Intended to be used as a PVP bootstrapper. 
