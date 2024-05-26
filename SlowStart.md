@@ -60,7 +60,7 @@ This is the .dat file pulled directly from MMBNLC. It's recommend that you do yo
 
 This is a human readable file containing all the `message_eng` scripts. It's useful for finding a script one wants to edit. 
 
-### [3_edit_file.md](./3_edit_files.md) and [4_editted](./4_editted)
+### [3_edit_file.md](./3_edit_files.md) and 4_editted
 
 1. Open `.\2_extracted\message_eng.tpl`
 2. Find the script you want to edit  
