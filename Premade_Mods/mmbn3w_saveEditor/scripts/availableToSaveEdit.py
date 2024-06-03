@@ -8,16 +8,16 @@ def giveChip(output, internalId, codes):
 			output = output + "\titemGiveChip\n"
 			output = output + "\t\tchip = " + internalId + "\n"
 			output = output + "\t\tcode = " + code + "\n"
-			output = output + "\t\tamount = " + str(99) + "\n"
+			output = output + "\t\tamount = 99\n"
 	return output
 
 def takeChip(output, internalId, codes):
 	for code in codes:
 		if code != '':
-			output = output + "\titemTakeChip\n"
+			output = output + "\titemSetChip\n"
 			output = output + "\t\tchip = " + internalId + "\n"
 			output = output + "\t\tcode = " + code + "\n"
-			output = output + "\t\tamount = " + str(99) + "\n"
+			output = output + "\t\tamount = 0\n"
 	return output
 
 with open('whiteChipLookup.csv') as f:

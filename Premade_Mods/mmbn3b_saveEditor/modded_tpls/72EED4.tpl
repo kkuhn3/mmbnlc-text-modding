@@ -4544,10 +4544,10 @@ script 202 mmbn3 {
 		chip = 2
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 2
 		code = H
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 3
 		code = P
@@ -4564,10 +4564,10 @@ script 202 mmbn3 {
 		chip = 3
 		code =  S
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 3
 		code = O
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 4
 		code = *
@@ -4596,10 +4596,10 @@ script 202 mmbn3 {
 		chip = 7
 		code =  V
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 7
 		code = T
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 8
 		code = B
@@ -4616,10 +4616,10 @@ script 202 mmbn3 {
 		chip = 8
 		code =  M
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 8
 		code = O
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 9
 		code = E
@@ -4636,10 +4636,10 @@ script 202 mmbn3 {
 		chip = 9
 		code =  W
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 9
 		code = R
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 114
 		code = A
@@ -4652,14 +4652,14 @@ script 202 mmbn3 {
 		chip = 114
 		code =  Z
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 114
 		code = G
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 114
 		code =  Y
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 10
 		code = B
@@ -4672,14 +4672,14 @@ script 202 mmbn3 {
 		chip = 10
 		code =  T
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 10
 		code = F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 10
 		code =  N
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 11
 		code = D
@@ -4688,18 +4688,18 @@ script 202 mmbn3 {
 		chip = 11
 		code =  L
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 11
 		code = G
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 11
 		code =  P
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 11
 		code =  V
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 12
 		code = M
@@ -4708,18 +4708,18 @@ script 202 mmbn3 {
 		chip = 12
 		code =  S
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 12
 		code = C
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 12
 		code =  H
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 12
 		code =  Y
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 13
 		code = M
@@ -4760,10 +4760,10 @@ script 202 mmbn3 {
 		chip = 14
 		code =  P
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 14
 		code = A
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 15
 		code = D
@@ -4780,10 +4780,10 @@ script 202 mmbn3 {
 		chip = 15
 		code =  V
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 15
 		code = S
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 16
 		code = B
@@ -4800,10 +4800,10 @@ script 202 mmbn3 {
 		chip = 16
 		code =  G
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 16
 		code = R
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 17
 		code = H
@@ -4820,10 +4820,10 @@ script 202 mmbn3 {
 		chip = 17
 		code =  P
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 17
 		code = B
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 18
 		code = F
@@ -4880,14 +4880,14 @@ script 202 mmbn3 {
 		chip = 20
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 20
 		code = G
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 20
 		code =  O
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 21
 		code = D
@@ -4904,14 +4904,14 @@ script 202 mmbn3 {
 		chip = 21
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 21
 		code = J
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 21
 		code =  T
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 22
 		code = A
@@ -4932,10 +4932,10 @@ script 202 mmbn3 {
 		chip = 22
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 22
 		code = Q
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 23
 		code = E
@@ -4952,10 +4952,10 @@ script 202 mmbn3 {
 		chip = 23
 		code =  P
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 23
 		code = W
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 24
 		code = A
@@ -4972,14 +4972,14 @@ script 202 mmbn3 {
 		chip = 24
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 24
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 24
 		code =  L
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 25
 		code = M
@@ -4988,22 +4988,22 @@ script 202 mmbn3 {
 		chip = 25
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 25
 		code = F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 25
 		code =  I
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 25
 		code =  Q
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 25
 		code =  S
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 26
 		code = C
@@ -5020,14 +5020,14 @@ script 202 mmbn3 {
 		chip = 26
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 26
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 26
 		code =  W
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 27
 		code = N
@@ -5036,18 +5036,18 @@ script 202 mmbn3 {
 		chip = 27
 		code =  P
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 27
 		code = F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 27
 		code =  L
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 27
 		code =  Z
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 28
 		code = K
@@ -5056,18 +5056,18 @@ script 202 mmbn3 {
 		chip = 28
 		code =  S
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 28
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 28
 		code =  I
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 28
 		code =  Q
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 29
 		code = G
@@ -5076,18 +5076,18 @@ script 202 mmbn3 {
 		chip = 29
 		code =  L
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 29
 		code = C
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 29
 		code =  U
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 29
 		code =  Y
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 30
 		code = E
@@ -5104,10 +5104,10 @@ script 202 mmbn3 {
 		chip = 30
 		code =  Y
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 30
 		code = H
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 31
 		code = C
@@ -5124,10 +5124,10 @@ script 202 mmbn3 {
 		chip = 31
 		code =  Y
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 31
 		code = Q
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 32
 		code = E
@@ -5200,14 +5200,14 @@ script 202 mmbn3 {
 		chip = 35
 		code =  V
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 35
 		code = E
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 35
 		code =  K
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 36
 		code = N
@@ -5216,18 +5216,18 @@ script 202 mmbn3 {
 		chip = 36
 		code =  P
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 36
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 36
 		code =  L
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 36
 		code =  W
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 37
 		code = B
@@ -5240,14 +5240,14 @@ script 202 mmbn3 {
 		chip = 37
 		code =  Z
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 37
 		code = F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 37
 		code =  R
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 38
 		code = B
@@ -5264,10 +5264,10 @@ script 202 mmbn3 {
 		chip = 38
 		code =  F
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 38
 		code = E
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 42
 		code = H
@@ -5276,22 +5276,22 @@ script 202 mmbn3 {
 		chip = 42
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 42
 		code = C
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 42
 		code =  E
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 42
 		code =  J
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 42
 		code =  R
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 39
 		code = L
@@ -5344,14 +5344,14 @@ script 202 mmbn3 {
 		chip = 43
 		code =  S
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 43
 		code = G
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 43
 		code =  R
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 44
 		code = D
@@ -5364,14 +5364,14 @@ script 202 mmbn3 {
 		chip = 44
 		code =  R
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 44
 		code = H
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 44
 		code =  L
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 45
 		code = G
@@ -5388,10 +5388,10 @@ script 202 mmbn3 {
 		chip = 45
 		code =  S
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 45
 		code = W
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 46
 		code = Q
@@ -5404,14 +5404,14 @@ script 202 mmbn3 {
 		chip = 46
 		code =  V
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 46
 		code = E
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 46
 		code =  N
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 113
 		code = E
@@ -5424,14 +5424,14 @@ script 202 mmbn3 {
 		chip = 113
 		code =  P
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 113
 		code = M
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 113
 		code =  Y
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 47
 		code = B
@@ -5488,10 +5488,10 @@ script 202 mmbn3 {
 		chip = 49
 		code =  J
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 49
 		code = K
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 53
 		code = C
@@ -5508,14 +5508,14 @@ script 202 mmbn3 {
 		chip = 53
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 53
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 53
 		code =  J
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 54
 		code = B
@@ -5528,14 +5528,14 @@ script 202 mmbn3 {
 		chip = 54
 		code =  S
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 54
 		code = F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 54
 		code =  W
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 115
 		code = B
@@ -5548,14 +5548,14 @@ script 202 mmbn3 {
 		chip = 115
 		code =  S
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 115
 		code = L
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 115
 		code =  Z
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 116
 		code = A
@@ -5568,14 +5568,14 @@ script 202 mmbn3 {
 		chip = 116
 		code =  R
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 116
 		code = F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 116
 		code =  S
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 66
 		code = A
@@ -5592,10 +5592,10 @@ script 202 mmbn3 {
 		chip = 66
 		code =  S
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 66
 		code = Q
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 67
 		code = B
@@ -5612,10 +5612,10 @@ script 202 mmbn3 {
 		chip = 67
 		code =  W
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 67
 		code = N
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 68
 		code = C
@@ -5656,10 +5656,10 @@ script 202 mmbn3 {
 		chip = 90
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 90
 		code = M
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 91
 		code = D
@@ -5676,14 +5676,14 @@ script 202 mmbn3 {
 		chip = 91
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 91
 		code = L
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 91
 		code =  R
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 92
 		code = C
@@ -5700,10 +5700,10 @@ script 202 mmbn3 {
 		chip = 92
 		code =  R
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 92
 		code = V
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 69
 		code = D
@@ -5720,10 +5720,10 @@ script 202 mmbn3 {
 		chip = 69
 		code =  G
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 69
 		code = C
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 70
 		code = H
@@ -5740,10 +5740,10 @@ script 202 mmbn3 {
 		chip = 70
 		code =  K
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 70
 		code = L
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 71
 		code = M
@@ -5760,10 +5760,10 @@ script 202 mmbn3 {
 		chip = 71
 		code =  Q
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 71
 		code = P
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 50
 		code = A
@@ -5776,14 +5776,14 @@ script 202 mmbn3 {
 		chip = 50
 		code =  S
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 50
 		code = H
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 50
 		code =  O
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 51
 		code = C
@@ -5800,10 +5800,10 @@ script 202 mmbn3 {
 		chip = 51
 		code =  M
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 51
 		code = W
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 52
 		code = A
@@ -5820,10 +5820,10 @@ script 202 mmbn3 {
 		chip = 52
 		code =  N
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 52
 		code = V
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 96
 		code = B
@@ -5840,10 +5840,10 @@ script 202 mmbn3 {
 		chip = 96
 		code =  T
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 96
 		code = M
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 97
 		code = F
@@ -5860,10 +5860,10 @@ script 202 mmbn3 {
 		chip = 97
 		code =  Z
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 97
 		code = R
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 98
 		code = A
@@ -5880,10 +5880,10 @@ script 202 mmbn3 {
 		chip = 98
 		code =  P
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 98
 		code = J
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 58
 		code = A
@@ -5900,10 +5900,10 @@ script 202 mmbn3 {
 		chip = 58
 		code =  H
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 58
 		code = J
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 59
 		code = A
@@ -5920,10 +5920,10 @@ script 202 mmbn3 {
 		chip = 59
 		code =  O
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 59
 		code = N
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 60
 		code = A
@@ -5940,10 +5940,10 @@ script 202 mmbn3 {
 		chip = 60
 		code =  S
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 60
 		code = C
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 117
 		code = B
@@ -5956,14 +5956,14 @@ script 202 mmbn3 {
 		chip = 117
 		code =  H
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 117
 		code = M
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 117
 		code =  Y
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 61
 		code = E
@@ -5976,14 +5976,14 @@ script 202 mmbn3 {
 		chip = 61
 		code =  L
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 61
 		code = S
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 61
 		code =  T
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 62
 		code = F
@@ -5996,14 +5996,14 @@ script 202 mmbn3 {
 		chip = 62
 		code =  R
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 62
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 62
 		code =  U
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 63
 		code = D
@@ -6016,14 +6016,14 @@ script 202 mmbn3 {
 		chip = 63
 		code =  V
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 63
 		code = G
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 63
 		code =  Z
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 65
 		code = C
@@ -6040,10 +6040,10 @@ script 202 mmbn3 {
 		chip = 65
 		code =  U
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 65
 		code = R
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 72
 		code = B
@@ -6060,14 +6060,14 @@ script 202 mmbn3 {
 		chip = 72
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 72
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 72
 		code =  Z
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 73
 		code = C
@@ -6084,10 +6084,10 @@ script 202 mmbn3 {
 		chip = 73
 		code =  R
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 73
 		code = F
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 74
 		code = D
@@ -6104,10 +6104,10 @@ script 202 mmbn3 {
 		chip = 74
 		code =  O
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 74
 		code = Q
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 110
 		code = G
@@ -6124,10 +6124,10 @@ script 202 mmbn3 {
 		chip = 110
 		code =  U
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 110
 		code = E
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 111
 		code = B
@@ -6140,14 +6140,14 @@ script 202 mmbn3 {
 		chip = 111
 		code =  L
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 111
 		code = I
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 111
 		code =  Q
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 112
 		code = M
@@ -6160,14 +6160,14 @@ script 202 mmbn3 {
 		chip = 112
 		code =  T
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 112
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 112
 		code =  Z
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 148
 		code = C
@@ -6180,14 +6180,14 @@ script 202 mmbn3 {
 		chip = 148
 		code =  K
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 148
 		code = G
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 148
 		code =  W
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 149
 		code = I
@@ -6204,10 +6204,10 @@ script 202 mmbn3 {
 		chip = 149
 		code =  Y
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 149
 		code = E
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 150
 		code = M
@@ -6220,14 +6220,14 @@ script 202 mmbn3 {
 		chip = 150
 		code =  Z
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 150
 		code = H
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 150
 		code =  V
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 64
 		code = B
@@ -6240,18 +6240,18 @@ script 202 mmbn3 {
 		chip = 64
 		code =  T
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 64
 		code = G
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 64
 		code =  L
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 64
 		code =  *
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 107
 		code = B
@@ -6264,14 +6264,14 @@ script 202 mmbn3 {
 		chip = 107
 		code =  W
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 107
 		code = L
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 107
 		code =  S
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 78
 		code = D
@@ -6288,14 +6288,14 @@ script 202 mmbn3 {
 		chip = 78
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 78
 		code = M
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 78
 		code =  O
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 79
 		code = E
@@ -6308,14 +6308,14 @@ script 202 mmbn3 {
 		chip = 79
 		code =  U
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 79
 		code = O
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 79
 		code =  T
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 80
 		code = H
@@ -6328,14 +6328,14 @@ script 202 mmbn3 {
 		chip = 80
 		code =  U
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 80
 		code = I
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 80
 		code =  V
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 84
 		code = F
@@ -6352,14 +6352,14 @@ script 202 mmbn3 {
 		chip = 84
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 84
 		code = J
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 84
 		code =  M
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 85
 		code = I
@@ -6380,10 +6380,10 @@ script 202 mmbn3 {
 		chip = 85
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 85
 		code = E
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 86
 		code = L
@@ -6400,10 +6400,10 @@ script 202 mmbn3 {
 		chip = 86
 		code =  Z
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 86
 		code = O
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 108
 		code = A
@@ -6420,14 +6420,14 @@ script 202 mmbn3 {
 		chip = 108
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 108
 		code = N
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 108
 		code =  Q
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 109
 		code = A
@@ -6444,14 +6444,14 @@ script 202 mmbn3 {
 		chip = 109
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 109
 		code = N
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 109
 		code =  Q
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 145
 		code = H
@@ -6468,14 +6468,14 @@ script 202 mmbn3 {
 		chip = 145
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 145
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 145
 		code =  J
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 146
 		code = M
@@ -6492,14 +6492,14 @@ script 202 mmbn3 {
 		chip = 146
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 146
 		code = G
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 146
 		code =  S
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 147
 		code = C
@@ -6516,10 +6516,10 @@ script 202 mmbn3 {
 		chip = 147
 		code =  Z
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 147
 		code = T
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 104
 		code = C
@@ -6536,14 +6536,14 @@ script 202 mmbn3 {
 		chip = 104
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 104
 		code = A
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 104
 		code =  P
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 105
 		code = B
@@ -6556,14 +6556,14 @@ script 202 mmbn3 {
 		chip = 105
 		code =  S
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 105
 		code = L
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 105
 		code =  T
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 106
 		code = C
@@ -6576,14 +6576,14 @@ script 202 mmbn3 {
 		chip = 106
 		code =  N
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 106
 		code = L
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 106
 		code =  R
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 81
 		code = A
@@ -6600,10 +6600,10 @@ script 202 mmbn3 {
 		chip = 81
 		code =  V
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 81
 		code = T
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 82
 		code = B
@@ -6616,14 +6616,14 @@ script 202 mmbn3 {
 		chip = 82
 		code =  O
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 82
 		code = G
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 82
 		code =  Z
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 83
 		code = D
@@ -6640,10 +6640,10 @@ script 202 mmbn3 {
 		chip = 83
 		code =  W
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 83
 		code = S
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 93
 		code = D
@@ -6656,14 +6656,14 @@ script 202 mmbn3 {
 		chip = 93
 		code =  R
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 93
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 93
 		code =  T
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 94
 		code = A
@@ -6680,10 +6680,10 @@ script 202 mmbn3 {
 		chip = 94
 		code =  Q
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 94
 		code = G
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 95
 		code = I
@@ -6700,10 +6700,10 @@ script 202 mmbn3 {
 		chip = 95
 		code =  S
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 95
 		code = F
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 87
 		code = E
@@ -6720,10 +6720,10 @@ script 202 mmbn3 {
 		chip = 87
 		code =  V
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 87
 		code = Z
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 88
 		code = C
@@ -6740,10 +6740,10 @@ script 202 mmbn3 {
 		chip = 88
 		code =  Q
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 88
 		code = N
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 89
 		code = A
@@ -6756,14 +6756,14 @@ script 202 mmbn3 {
 		chip = 89
 		code =  S
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 89
 		code = F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 89
 		code =  Y
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 154
 		code = I
@@ -6776,14 +6776,14 @@ script 202 mmbn3 {
 		chip = 154
 		code =  R
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 154
 		code = M
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 154
 		code =  S
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 155
 		code = H
@@ -6792,18 +6792,18 @@ script 202 mmbn3 {
 		chip = 155
 		code =  T
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 155
 		code = F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 155
 		code =  M
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 155
 		code =  V
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 156
 		code = D
@@ -6820,10 +6820,10 @@ script 202 mmbn3 {
 		chip = 156
 		code =  Z
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 156
 		code = O
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 55
 		code = G
@@ -6900,10 +6900,10 @@ script 202 mmbn3 {
 		chip = 101
 		code =  O
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 101
 		code = P
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 102
 		code = G
@@ -6916,14 +6916,14 @@ script 202 mmbn3 {
 		chip = 102
 		code =  S
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 102
 		code = A
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 102
 		code =  N
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 103
 		code = B
@@ -6936,14 +6936,14 @@ script 202 mmbn3 {
 		chip = 103
 		code =  J
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 103
 		code = O
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 103
 		code =  P
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 133
 		code = B
@@ -6960,10 +6960,10 @@ script 202 mmbn3 {
 		chip = 133
 		code =  K
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 133
 		code = Y
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 134
 		code = E
@@ -6996,14 +6996,14 @@ script 202 mmbn3 {
 		chip = 135
 		code =  U
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 135
 		code = G
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 135
 		code =  H
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 151
 		code = B
@@ -7016,14 +7016,14 @@ script 202 mmbn3 {
 		chip = 151
 		code =  Y
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 151
 		code = N
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 151
 		code =  R
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 152
 		code = C
@@ -7036,14 +7036,14 @@ script 202 mmbn3 {
 		chip = 152
 		code =  U
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 152
 		code = M
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 152
 		code =  V
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 153
 		code = D
@@ -7060,14 +7060,14 @@ script 202 mmbn3 {
 		chip = 153
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 153
 		code = N
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 153
 		code =  U
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 132
 		code = A
@@ -7084,14 +7084,14 @@ script 202 mmbn3 {
 		chip = 132
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 132
 		code = E
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 132
 		code =  T
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 169
 		code = D
@@ -7104,18 +7104,18 @@ script 202 mmbn3 {
 		chip = 169
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 169
 		code = L
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 169
 		code =  S
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 169
 		code =  Z
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 99
 		code = J
@@ -7132,10 +7132,10 @@ script 202 mmbn3 {
 		chip = 99
 		code =  N
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 99
 		code = M
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 100
 		code = R
@@ -7148,18 +7148,18 @@ script 202 mmbn3 {
 		chip = 100
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 100
 		code = A
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 100
 		code =  D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 100
 		code =  L
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 75
 		code = E
@@ -7176,10 +7176,10 @@ script 202 mmbn3 {
 		chip = 75
 		code =  Z
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 75
 		code = D
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 131
 		code = D
@@ -7196,10 +7196,10 @@ script 202 mmbn3 {
 		chip = 131
 		code =  Y
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 131
 		code = I
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 118
 		code = *
@@ -7216,18 +7216,18 @@ script 202 mmbn3 {
 		chip = 119
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 119
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 119
 		code =  L
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 119
 		code =  S
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 120
 		code = C
@@ -7236,22 +7236,22 @@ script 202 mmbn3 {
 		chip = 120
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 120
 		code = E
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 120
 		code =  N
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 120
 		code =  R
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 120
 		code =  Y
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 129
 		code = A
@@ -7260,22 +7260,22 @@ script 202 mmbn3 {
 		chip = 129
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 129
 		code = H
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 129
 		code =  L
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 129
 		code =  S
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 129
 		code =  Y
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 130
 		code = E
@@ -7288,18 +7288,18 @@ script 202 mmbn3 {
 		chip = 130
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 130
 		code = R
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 130
 		code =  S
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 130
 		code =  Y
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 136
 		code = A
@@ -7308,18 +7308,18 @@ script 202 mmbn3 {
 		chip = 136
 		code =  K
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 136
 		code = E
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 136
 		code =  I
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 136
 		code =  N
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 137
 		code = C
@@ -7332,14 +7332,14 @@ script 202 mmbn3 {
 		chip = 137
 		code =  Y
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 137
 		code = G
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 137
 		code =  R
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 141
 		code = A
@@ -7348,22 +7348,22 @@ script 202 mmbn3 {
 		chip = 141
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 141
 		code = C
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 141
 		code =  E
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 141
 		code =  H
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 141
 		code =  R
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 142
 		code = H
@@ -7372,18 +7372,18 @@ script 202 mmbn3 {
 		chip = 142
 		code =  Q
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 142
 		code = J
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 142
 		code =  K
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 142
 		code =  W
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 143
 		code = S
@@ -7392,22 +7392,22 @@ script 202 mmbn3 {
 		chip = 143
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 143
 		code = A
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 143
 		code =  E
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 143
 		code =  H
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 143
 		code =  O
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 144
 		code = A
@@ -7420,18 +7420,18 @@ script 202 mmbn3 {
 		chip = 144
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 144
 		code = G
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 144
 		code =  R
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 144
 		code =  T
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 170
 		code = E
@@ -7448,14 +7448,14 @@ script 202 mmbn3 {
 		chip = 170
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 170
 		code = C
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 170
 		code =  L
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 171
 		code = D
@@ -7472,14 +7472,14 @@ script 202 mmbn3 {
 		chip = 171
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 171
 		code = T
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 171
 		code =  Z
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 172
 		code = A
@@ -7500,10 +7500,10 @@ script 202 mmbn3 {
 		chip = 172
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 172
 		code = W
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 121
 		code = A
@@ -7516,18 +7516,18 @@ script 202 mmbn3 {
 		chip = 121
 		code =  L
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 121
 		code = E
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 121
 		code =  G
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 121
 		code =  *
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 122
 		code = D
@@ -7540,18 +7540,18 @@ script 202 mmbn3 {
 		chip = 122
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 122
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 122
 		code =  H
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 122
 		code =  M
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 123
 		code = C
@@ -7568,14 +7568,14 @@ script 202 mmbn3 {
 		chip = 123
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 123
 		code = I
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 123
 		code =  N
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 124
 		code = D
@@ -7588,18 +7588,18 @@ script 202 mmbn3 {
 		chip = 124
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 124
 		code = F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 124
 		code =  H
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 124
 		code =  O
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 125
 		code = O
@@ -7616,14 +7616,14 @@ script 202 mmbn3 {
 		chip = 125
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 125
 		code = Q
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 125
 		code =  U
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 126
 		code = N
@@ -7640,14 +7640,14 @@ script 202 mmbn3 {
 		chip = 126
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 126
 		code = R
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 126
 		code =  T
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 127
 		code = M
@@ -7656,18 +7656,18 @@ script 202 mmbn3 {
 		chip = 127
 		code =  N
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 127
 		code = U
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 127
 		code =  V
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 127
 		code =  W
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 128
 		code = O
@@ -7676,18 +7676,18 @@ script 202 mmbn3 {
 		chip = 128
 		code =  R
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 128
 		code = V
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 128
 		code =  W
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 128
 		code =  Z
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 159
 		code = A
@@ -7700,66 +7700,66 @@ script 202 mmbn3 {
 		chip = 159
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 159
 		code = C
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 159
 		code =  D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 159
 		code =  F
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 157
 		code = *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 157
 		code = A
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 157
 		code =  C
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 157
 		code =  R
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 157
 		code =  S
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 157
 		code =  Z
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 158
 		code = *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 158
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 158
 		code =  E
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 158
 		code =  J
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 158
 		code =  R
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 158
 		code =  Y
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 41
 		code = C
@@ -7768,18 +7768,18 @@ script 202 mmbn3 {
 		chip = 41
 		code =  L
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 41
 		code = A
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 41
 		code =  R
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 41
 		code =  Z
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 138
 		code = D
@@ -7792,18 +7792,18 @@ script 202 mmbn3 {
 		chip = 138
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 138
 		code = M
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 138
 		code =  O
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 138
 		code =  S
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 139
 		code = F
@@ -7812,18 +7812,18 @@ script 202 mmbn3 {
 		chip = 139
 		code =  W
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 139
 		code = H
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 139
 		code =  N
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 139
 		code =  O
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 140
 		code = C
@@ -7832,18 +7832,18 @@ script 202 mmbn3 {
 		chip = 140
 		code =  U
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 140
 		code = M
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 140
 		code =  W
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 140
 		code =  Y
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 194
 		code = F
@@ -7852,46 +7852,46 @@ script 202 mmbn3 {
 		chip = 194
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 194
 		code = A
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 194
 		code =  H
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 194
 		code =  L
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 194
 		code =  Y
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 160
 		code = *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 160
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 160
 		code =  E
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 160
 		code =  F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 160
 		code =  R
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 160
 		code =  S
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 165
 		code = H
@@ -7912,10 +7912,10 @@ script 202 mmbn3 {
 		chip = 165
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 165
 		code = U
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 162
 		code = A
@@ -7936,10 +7936,10 @@ script 202 mmbn3 {
 		chip = 162
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 162
 		code = H
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 163
 		code = B
@@ -7960,10 +7960,10 @@ script 202 mmbn3 {
 		chip = 163
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 163
 		code = R
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 164
 		code = C
@@ -7980,10 +7980,10 @@ script 202 mmbn3 {
 		chip = 164
 		code =  M
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 164
 		code = Q
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 168
 		code = N
@@ -7992,22 +7992,22 @@ script 202 mmbn3 {
 		chip = 168
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 168
 		code = H
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 168
 		code =  I
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 168
 		code =  U
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 168
 		code =  Y
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 173
 		code = E
@@ -8024,14 +8024,14 @@ script 202 mmbn3 {
 		chip = 173
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 173
 		code = C
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 173
 		code =  S
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 174
 		code = E
@@ -8040,22 +8040,22 @@ script 202 mmbn3 {
 		chip = 174
 		code =  R
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 174
 		code = J
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 174
 		code =  M
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 174
 		code =  T
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 174
 		code =  *
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 175
 		code = E
@@ -8064,18 +8064,18 @@ script 202 mmbn3 {
 		chip = 175
 		code =  R
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 175
 		code = F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 175
 		code =  H
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 175
 		code =  U
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 176
 		code = F
@@ -8084,18 +8084,18 @@ script 202 mmbn3 {
 		chip = 176
 		code =  I
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 176
 		code = S
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 176
 		code =  U
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 176
 		code =  Y
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 177
 		code = A
@@ -8104,18 +8104,18 @@ script 202 mmbn3 {
 		chip = 177
 		code =  C
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 177
 		code = N
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 177
 		code =  S
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 177
 		code =  Z
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 166
 		code = L
@@ -8196,22 +8196,22 @@ script 202 mmbn3 {
 		chip = 161
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 161
 		code = A
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 161
 		code =  B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 161
 		code =  S
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 161
 		code =  T
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 178
 		code = E
@@ -8232,10 +8232,10 @@ script 202 mmbn3 {
 		chip = 178
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 178
 		code = L
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 179
 		code = A
@@ -8244,22 +8244,22 @@ script 202 mmbn3 {
 		chip = 179
 		code =  T
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 179
 		code = E
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 179
 		code =  R
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 179
 		code =  Y
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 179
 		code =  *
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 180
 		code = C
@@ -8268,22 +8268,22 @@ script 202 mmbn3 {
 		chip = 180
 		code =  *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 180
 		code = G
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 180
 		code =  M
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 180
 		code =  Q
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 180
 		code =  T
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 181
 		code = E
@@ -8292,22 +8292,22 @@ script 202 mmbn3 {
 		chip = 181
 		code =  R
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 181
 		code = J
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 181
 		code =  W
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 181
 		code =  Z
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 181
 		code =  *
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 182
 		code = B
@@ -8320,14 +8320,14 @@ script 202 mmbn3 {
 		chip = 182
 		code =  W
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 182
 		code = Q
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 182
 		code =  U
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 183
 		code = D
@@ -8336,18 +8336,18 @@ script 202 mmbn3 {
 		chip = 183
 		code =  M
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 183
 		code = G
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 183
 		code =  O
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 183
 		code =  S
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 184
 		code = A
@@ -8356,18 +8356,18 @@ script 202 mmbn3 {
 		chip = 184
 		code =  C
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 184
 		code = E
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 184
 		code =  L
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 184
 		code =  S
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 191
 		code = M
@@ -8376,18 +8376,18 @@ script 202 mmbn3 {
 		chip = 191
 		code =  S
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 191
 		code = C
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 191
 		code =  F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 191
 		code =  H
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 192
 		code = K
@@ -8396,18 +8396,18 @@ script 202 mmbn3 {
 		chip = 192
 		code =  Y
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 192
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 192
 		code =  R
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 192
 		code =  U
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 190
 		code = M
@@ -8416,18 +8416,18 @@ script 202 mmbn3 {
 		chip = 190
 		code =  N
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 190
 		code = A
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 190
 		code =  V
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 190
 		code =  W
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 193
 		code = B
@@ -8436,18 +8436,18 @@ script 202 mmbn3 {
 		chip = 193
 		code =  D
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 193
 		code = E
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 193
 		code =  O
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 193
 		code =  S
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 195
 		code = *
@@ -8592,262 +8592,262 @@ script 202 mmbn3 {
 		chip = 206
 		code = *
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 219
 		code = R
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 220
 		code = R
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 221
 		code = R
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 222
 		code = G
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 223
 		code = G
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 224
 		code = G
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 225
 		code = G
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 227
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 228
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 229
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 230
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 232
 		code = F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 233
 		code = F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 234
 		code = F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 235
 		code = F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 237
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 238
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 239
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 240
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 242
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 243
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 244
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 245
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 247
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 248
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 249
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 250
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 252
 		code = P
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 253
 		code = P
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 254
 		code = P
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 255
 		code = P
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 257
 		code = F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 258
 		code = F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 259
 		code = F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 260
 		code = F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 262
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 263
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 264
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 265
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 267
 		code = M
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 268
 		code = M
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 269
 		code = M
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 270
 		code = M
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 277
 		code = K
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 278
 		code = K
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 279
 		code = K
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 280
 		code = K
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 282
 		code = M
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 283
 		code = M
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 284
 		code = M
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 285
 		code = M
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 287
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 288
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 289
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 290
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 292
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 293
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 294
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 295
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 297
 		code = Y
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 298
 		code = Y
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 299
 		code = Y
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 300
 		code = Y
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 303
 		code = *
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 311
 		code = X
@@ -8856,78 +8856,78 @@ script 202 mmbn3 {
 		chip = 309
 		code = A
 		amount = 99
-	itemTakeChip
+	itemSetChip
 		chip = 302
 		code = Z
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 310
 		code = V
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 226
 		code = G
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 231
 		code = P
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 236
 		code = F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 241
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 246
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 251
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 256
 		code = P
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 261
 		code = F
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 266
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 271
 		code = M
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 281
 		code = K
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 286
 		code = M
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 291
 		code = B
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 296
 		code = D
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 301
 		code = Y
-		amount = 99
-	itemTakeChip
+		amount = 0
+	itemSetChip
 		chip = 272
 		code = P
-		amount = 99
+		amount = 0
 	itemGiveChip
 		chip = 312
 		code = X
