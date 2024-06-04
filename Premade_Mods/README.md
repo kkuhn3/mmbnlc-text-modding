@@ -14,6 +14,11 @@ Double click `apply.bat`.
 
 ## Available Edits
 
+### [mmbn3b_quickNaviCust](./mmbn3b_quickNaviCust)
+
+BN3  Blue  
+Updates the bookcase in Lan's house to give 1 bugstop navicust part and 3 charge +1s. Should be straightforward-ish to edit for any given navicust part. 
+
 ### [mmbn3b_saveEditor](./mmbn3b_saveEditor)
 
 BN3  Blue  
