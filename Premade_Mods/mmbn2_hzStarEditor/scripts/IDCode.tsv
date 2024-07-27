@@ -1,0 +1,267 @@
+ID	Internal ID	Name	Codes	Allowed	Banned
+1	1	Cannon	A, B, C, D, E, *	A, B, C, D, E, *	
+2	2	HiCannon	C, D, E, F, G, *	C, D, E, F, G, *	
+3	3	M-Cannon	E, F, G, H, I, *	E, F, G, H, I	*
+4	4	Shotgun	B, F, H, J, N, *	B, J, *	F, H, N
+5	5	V-Gun	A, F, G, L, P, *	A, L, P	F, G, *
+6	6	CrossGun	H, J, M, Q, S, *	J, M, Q, S, *	H
+7	7	Spreader	M, N, O, P, Q, *	M, N, O, P, Q, *	
+8	8	Bubbler	B, G, H, P, R	B, G, H, P, R	
+9	9	Bub-V	C, D, J, N, S	C, D, J, N, S	
+10	10	BubCross	K, O, P, T, V	K, O, P, T, V	
+11	11	BubSprd	E, F, I, L, M	E, F, I, L, M	
+12	12	HeatShot	B, G, H, P, R	B, G, H, P	R
+13	13	Heat-V	C, D, J, N, S	C, D, J, N, S	
+14	14	HeatCros	K, O, P, T, V	K, O, P, T, V	
+15	15	HeatSprd	E, F, I, L, M	E, F, I, L, M	
+16	16	MiniBomb	B, E, G, L, O, *	B, E, *	G, L, O
+17	17	LilBomb	F, J, O, Q, T, *	F, J, O, Q, T, *	
+18	18	CrosBomb	D, J, O, Q, T	D, J, O, Q, T	
+19	19	BigBomb	O, Q, T, V, Y, *	O, T, V, Y, *	Q
+20	20	TreeBom1	B, G, H, P, R, *	B, G, H, P, R, *	
+21	21	TreeBom2	C, D, J, N, S, *	C, D, J, N, S	*
+22	22	TreeBom3	K, O, P, T, V, *	K, O, P, T, V	*
+23	23	Sword	A, K, L, S, Y, *	A, L, S, Y	K, *
+24	24	WideSwrd	A, C, L, Q, Y, *	A, L, Y, *	C, Q
+25	25	LongSwrd	A, I, L, O, Y	A, I, L, O, Y	
+26	26	FireSwrd	F, H, N, R, U	F, H, N, R	U
+27	27	AquaSwrd	A, H, N, R, W	A, H, N, R, W	
+28	28	ElecSwrd	E, H, N, R, V, *	E, N, *	H, R, V
+29	29	FireBlde	F, H, P, R, Z, *	F, R, *	H, P, Z
+30	30	AquaBlde	A, F, J, R, Z, *	A, R, *	F, J, Z
+31	31	ElecBlde	E, F, M, N, R, *	E, N, R, *	F, M
+32	32	StepSwrd	D, H, M, Q, U, *	M, Q, U	D, H, *
+33	35	Kunai1	E, I, L, P, S	E, I, L, P, S	
+34	36	Kunai2	D, F, J, Q, R	D, F, J, Q, R	
+35	37	Kunai3	C, G, H, K, N	C, G, H, K, N	
+36	34	CustSwrd	B, G, K, Q, T	B	G, K, Q, T
+37	33	Muramasa	N, O, T, U, W	O	N, T, U, W
+38	121	VarSwrd	B, L, N, T, Z	B, L, N, T	Z
+39	38	Slasher	A, D, H, L, Q, *	L	A, D, H, Q, *
+40	39	Shockwav	H, J, L, R, U	H, J, L, R, U	
+41	40	Sonicwav	E, I, M, S, W	E, I, M, S, W	
+42	41	Dynawave	G, N, Q, T, V	G, N, Q, T, V	
+43	42	Quake1	A, M, P, Q, W	A, M, P, Q, W	
+44	43	Quake2	B, G, N, Q, W	B, G, N, Q, W	
+45	44	Quake3	C, E, O, Q, W	Q, W	C, E, O
+46	45	GutPunch	B, D, H, K, N	B, D, H, K, N	
+47	46	ColdPnch	B, D, L, P, S	B, D	L, P, S
+48	50	DashAtk	B, D, G, J, L, *	B, D, G, J, L, *	
+49	51	Wrecker	O, Q, S, U, W	O, Q, S, W	U
+50	52	CannBall	O, P, Q, R, S, *	O, P, Q, R, S, *	
+51	53	DoubNdl	A, C, F, I, J	A, C, F, I, J	
+52	54	TripNdl	C, I, M, T, V	C, I, M, T, V	
+53	55	QuadNdl	C, H, I, P, U	H, I, P, U	C
+54	56	Trident	E, I, K, O, T	E	I, K, O, T
+55	57	Ratton1	H, I, J, K, L, *	H, I, J, K, L, *	
+56	58	Ratton2	J, K, L, M, N, *	J, K, L, M, N, *	
+57	59	Ratton3	L, M, N, O, P, *	L, M, N, O, P, *	
+58	60	FireRat	B, F, G, H, R, *	F, R	B, G, H, *
+59	61	Tornado	E, J, L, M, Q	E	J, L, M, Q
+60	62	Twister	N, O, T, U, Y	N, Y	O, T, U
+61	63	Blower	P, R, T, W, Z	P	R, T, W, Z
+62	64	Burner	A, B, F, L, S	A, B, F, L, S	
+63	65	ZapRing1	A, M, P, Q, W, *	A, M, P, Q, W, *	
+64	66	ZapRing2	B, G, N, R, S	B, G, N, R, S	
+65	67	ZapRing3	C, E, O, T, Z	C, E, O, T, Z	
+66	71	Satelit1	G, O, Q, U, W	G	O, Q, U, W
+67	72	Satelit2	H, J, K, P, R	P, R	H, J, K
+68	73	Satelit3	L, S, T, Y, Z	L, S	T, Y, Z
+69	68	Spice1	A, C, G, Q, T	A, C, G, Q, T	
+70	69	Spice2	B, E, H, J, N	B, E, H, J, N	
+71	70	Spice3	D, K, M, P, Q	D, K, M, P, Q	
+72	77	MagBomb1	F, G, J, M, N, *	F, G, *	J, M, N
+73	78	MagBomb2	B, D, I, R, T, *	D, R, *	B, I, T
+74	79	MagBomb3	H, K, O, Q, S, *	H, Q, S	K, O, *
+75	74	Yo-Yo1	C, E, R, T, V	C, E, R, T, V	
+76	75	Yo-Yo2	A, G, J, K, N	A, G, J, K, N	
+77	76	Yo-Yo3	D, I, M, S, Y	D, I, M, S, Y	
+78	85	CrsShld1	A, O, P, S, Z	O, P, S	A, Z
+79	86	CrsShld2	A, O, P, T, V	A, O, P	T, V
+80	87	CrsShld3	A, O, P, U, W	A, O, P	U, W
+81	84	Hammer	R, T, U, V, Z	T, U, Z	R, V
+82	117	ZeusHamr	J, K, O, V, Z	Z	J, K, O, V
+83	116	Lance	O, P, T, V, Y, *	P, Y	O, T, V, *
+84	118	BrnzFist	B, N, O, R, S	N, S	B, O, R
+85	119	SilvFist	E, I, L, S, V	E, I, L, V	S
+86	120	GoldFist	D, G, L, O, Z	Z	D, G, L, O
+87	107	PoisMask	D, S, U, W, Z	S, U, W	D, Z
+88	108	PoisFace	P, Q, U, W, Y	U, W	P, Q, Y
+89	109	Whirlpl	A, C, E, G, I	A, C, E, G, I	
+90	110	Blckhole	B, D, F, H, J	B, D, F, H, J	
+91	80	Meteor9	C, E, L, S, V, *	C, S	E, L, V, *
+92	81	Meteor12	A, C, F, J, W, *	A, C, F, J, W	*
+93	82	Meteor15	D, G, H, R, Z, *	D, G, H, R, Z	*
+94	83	Meteor18	B, G, I, K, O, *	B, G, K	I, O, *
+95	88	TimeBom1	C, G, K, M, Z	C, G, K, M, Z	
+96	89	TimeBom2	F, G, K, O, Z	F, G, K, O, Z	
+97	90	TimeBom3	E, G, K, P, Z	E, G, K, P, Z	
+98	91	LilCloud	C, G, I, K, N	C, G, I, K, N	
+99	92	MedCloud	D, H, J, L, O	D, H, J, L, O	
+100	93	BigCloud	Q, R, T, U, W	Q, R, T, U, W	
+101	94	Mine	L, N, R, S, V, *	S	L, N, R, V, *
+102	95	FrntSnsr	H, M, Q, R, T	R	H, M, Q, T
+103	96	DblSnsr	E, J, P, W, Y	E	J, P, W, Y
+104	97	Remobit1	E, G, J, K, N	E, G, J, K, N	
+105	98	Remobit2	B, F, I, R, U	B, F, I, R, U	
+106	99	Remobit3	A, L, M, T, Y	A, L, M, T, Y	
+107	100	AquaBall	A, B, Q, T, W	A, B, Q, T, W	
+108	101	ElecBall	E, H, J, K, V	E, H, J, K, V	
+109	102	HeatBall	C, F, R, S, U	C, F, R, S, U	
+110	103	Geyser	A, B, D, L, S	B	A, D, L, S
+111	104	LavaDrag	F, G, O, R, Y	F, G, R, Y	O
+112	105	GodStone	E, I, L, Q, U	Q	E, I, L, U
+113	106	OldWood	C, M, S, T, W	W	C, M, S, T
+114	111	Guard	*	*	
+115	113	PanlOut1	A, B, D, L, S, *	B, *	A, D, L, S
+116	114	PanlOut3	C, E, N, R, Y, *	*	C, E, N, R, Y
+117	115	LineOut	F, H, J, Q, T, *	F, H, J, Q, T	*
+118	136	Catcher	F, I, J, N, T, *	F, N, T	I, J, *
+119	137	Mindbndr	D, I, M, N, T	D, I	M, N, T
+120	122	Recov10	A, C, E, G, L, *	A, L, *	C, E, G
+121	123	Recov30	B, D, F, H, M, *	B, F, H, *	D, M
+122	124	Recov50	C, E, G, I, N, *	C, G, I, N, *	E
+123	125	Recov80	D, F, H, J, O, *	D, F, O, *	H, J
+124	126	Recov120	O, Q, S, U, W	O, S, U	Q, W
+125	127	Recov150	N, P, R, T, V	P, T	N, R, V
+126	128	Recov200	M, N, U, V, W	M, W	N, U, V
+127	129	Recov300	O, R, V, W, Z	R	O, V, W, Z
+128	130	PanlGrab	B, H, K, L, P, *	L, P, *	B, H, K
+129	131	AreaGrab	E, L, R, S, Z, *	E, S, *	L, R, Z
+130	132	GrabRvng	A, L, P, S, W	W	A, L, P, S
+131	133	Geddon1	C, K, L, Q, S	S	C, K, L, Q
+132	134	Geddon2	J, M, R, T, Z	Z	J, M, R, T
+133	135	Geddon3	E, J, N, P, Y	Y	E, J, N, P
+134	138	Escape	F, H, J, L, N	F, H, J, N	L
+135	139	AirShoes	A, J, O, V, Z, *	A, J, Z	O, V, *
+136	140	Repair	A, C, E, L, P, *	C, L, *	A, E, P
+137	141	Candle1	C, F, I, M, V, *	C, F, I, M, V	
+138	142	Candle2	A, G, J, L, T, *	A, G, J, L, T	
+139	143	Candle3	B, E, H, N, W, *	B, E, H, N, W	
+140	144	RockCube	B, D, G, M, V, *	B, *	D, G, M, V
+141	145	Prism	B, C, L, N, Q, *	Q	B, C, L, N, *
+142	146	Guardian	O, P, U, V, Z	O	P, U, V, Z
+143	147	Wind	G, J, O, Q, T, *	G, J, O, Q, T, *	
+144	148	Fan	A, G, L, N, Y, *	A, G, L, N, Y, *	
+145	149	Anubis	H, K, M, U, W	U, W	H, K, M
+146	150	SloGauge	*	*	
+147	151	FstGauge	*	*	
+148	152	FullCust	*	*	
+149	153	Invis1	A, F, L, R, U, *	A, F, L, R, U, *	
+150	154	Invis2	B, H, M, Q, V, *	B, H, M, Q, V, *	
+151	155	Invis3	C, G, K, P, W, *	C, G, K, P, W, *	
+152	156	DropDown	A, C, F, Q, S, *	S	A, C, F, Q, *
+153	157	PopUp	D, I, J, T, W	D, I, T, W	J
+154	158	StoneBod	C, E, S, T, W, *	C, E, S	T, W, *
+155	159	Shadow1	B, G, H, L, R	B, G, H, L, R	
+156	160	Shadow2	D, E, J, M, T	D, E, J, M, T	
+157	161	Shadow3	C, F, K, N, V	C, F, K, N, V	
+158	162	UnderSht	H, J, N, R, W, *	N	H, J, R, W, *
+159	112	Barrier	B, E, L, S, T, *	B, L, *	E, S, T
+160	163	BblWrap	I, J, Q, R, W	R	I, J, Q, W
+161	164	LeafShld	A, D, R, S, W	A, D, R, S, W	
+162	165	AquaAura	A, E, I, M, Q, *	A, M	E, I, Q, *
+163	166	FireAura	B, F, J, N, R, *	R	B, F, J, N, *
+164	167	WoodAura	C, G, K, O, S	S	C, G, K, O
+165	168	ElecAura	D, H, L, P, T	L	D, H, P, T
+166	169	LifeAur1	B, G, I, O, Q	B, G, I, O	Q
+167	170	LifeAur2	D, F, J, N, R	D, F, J, N, R	
+168	171	LifeAur3	E, K, T	E, K, T	
+169	172	MagLine	A, E, I, M, Q, *	Q	A, E, I, M, *
+170	173	LavaLine	A, F, J, M, R, *	A, M	F, J, R, *
+171	174	IceLine	B, E, J, N, Q, *	E, J	B, N, Q, *
+172	175	GrassLne	B, F, I, N, R, *	N, R	B, F, I, *
+173	176	LavaStge	D, H, M, U, V, *	V	D, H, M, U, *
+174	177	IceStage	A, C, E, I, S, *	I	A, C, E, S, *
+175	178	GrassStg	B, D, H, P, R	H	B, D, P, R
+176	179	HolyPanl	C, E, H, L, R, *	C, E, L, R	H, *
+177	180	Jealosy	E, J, O, R, U, *	J	E, O, R, U, *
+178	181	AntiFire	F, K, L, P, T	T	F, K, L, P
+179	182	AntiElec	E, H, N, U, Y	H	E, N, U, Y
+180	183	AntiWatr	A, D, Q, W, Z	W	A, D, Q, Z
+181	184	AntiDmg	C, J, M, R, S	S	C, J, M, R
+182	185	AntiSwrd	D, H, I, M, T	H	D, I, M, T
+183	186	AntiNavi	K, L, O, T, X	X	K, L, O, T
+184	187	AntiRecv	B, D, M, P, W	D, M	B, P, W
+185	188	Atk+10	*	*	
+186	47	Atk+20	*	*	
+187	48	Atk+30	*	*	
+188	189	Fire+40	*	*	
+189	190	Aqua+40	*	*	
+190	191	Wood+40	*	*	
+191	192	Elec+40	*	*	
+192	193	Navi+20	*	*	
+193	49	Navi+40	*	*	
+194	194	Roll	R, *		R, *
+195	195	RollV2	R, *		R, *
+196	196	RollV3	R		R
+197	197	GutsMan	G, *		G, *
+198	198	GutsManV2	G		G
+199	199	GutsManV3	G		G
+200	200	ProtoMan	B, *		B, *
+201	201	ProtoMnV2	B		B
+202	202	ProtoMnV3	B		B
+203	203	AirMan	A, *		A, *
+204	204	AirManV2	A, *		A, *
+205	205	AirManV3	A, *		A, *
+206	206	QuickMan	Q, *		Q, *
+207	207	QuickMnV2	Q, *		Q, *
+208	208	QuickMnV3	Q, *		Q, *
+209	209	CutMan	C, *		C, *
+210	210	CutManV2	C, *		C, *
+211	211	CutManV3	C, *		C, *
+212	212	ShadoMan	S, *		S, *
+213	213	ShadoMnV2	S		S
+214	214	ShadoMnV3	S		S
+215	215	KnightMn	K, *		K, *
+216	216	KnghtMnV2	K		K
+217	217	KnghtMnV3	K		K
+218	218	MagnetMn	M, *		M, *
+219	219	MagntMnV2	M		M
+220	220	MagntMnV3	M		M
+221	221	FreezeMn	F, *		F, *
+222	222	FrzManV2	F		F
+223	223	FrzManV3	F		F
+224	224	HeatMan	H, *		H, *
+225	225	HeatManV2	H		H
+226	226	HeatManV3	H		H
+227	227	ToadMan	T, *		T, *
+228	228	ToadManV2	T		T
+229	229	ToadManV3	T		T
+230	230	ThunMan	T, *		T, *
+231	231	ThunManV2	T		T
+232	232	ThunManV3	T		T
+233	233	SnakeMan	S, *		S, *
+234	234	SnakeMnV2	S		S
+235	235	SnakeMnV3	S		S
+236	236	GateMan	G, *		G, *
+237	237	GateManV2	G		G
+238	238	GateManV3	G		G
+239	245	PharoMan	P		P
+240	246	PharoMnV2	P		P
+241	247	PharoMnV3	P		P
+242	242	NapalmMn	N		N
+243	243	NaplmMnV2	N		N
+244	244	NaplmMnV3	N		N
+245	239	PlanetMn	P		P
+246	240	PlnetMnV2	P		P
+247	241	PlnetMnV3	P		P
+248	248	Bass	F		F
+249	249	BassV2	F		F
+250	250	BassV3	X		X
+251	251	BgRedWav	F, H, P, R, S		F, H, P, R, S
+252	252	FreezBom	A, I, J, Q, U		A, I, J, Q, U
+253	253	Sparker	C, E, G, K, V		C, E, G, K, V
+254	254	GaiaSwrd	D, L, N, W, Y		D, L, N, W, Y
+255	255	BlkBomb	B, F, G, P, R		B, F, G, P, R
+256	256	FtrSword	A, I, L, S, Y, *		A, I, L, S, Y, *
+257	257	KngtSwrd	F, J, K, M, Q		F, J, K, M, Q
+258	258	HeroSwrd	E, N, O, T, Z		E, N, O, T, Z
+259	259	Meteors	B, H, O, R, V		B, H, O, R, V
+260	260	Poltrgst	E, P, R, U, W		E, P, R, U, W
+261	265	GateSP	G		G
+262	261	FireGspl	X		X
+263	262	AquaGspl	X		X
+264	263	ElecGspl	X		X
+265	264	WoodGspl	X		X
+266	270	Snctuary	A, C, E, L, S		A, C, E, L, S
