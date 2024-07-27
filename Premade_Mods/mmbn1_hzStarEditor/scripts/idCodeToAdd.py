@@ -35,8 +35,8 @@ with open('IDCode.tsv') as f:
 			allowed = line[4].split(", ")
 			banned = line[5].split(", ")
 			outputAll = giveChip(outputAll, internalId, codes)
-			outputHZS = giveChip(outputHZS, internalId, allowed)
 			outputHZS = takeChip(outputHZS, internalId, banned)
+			outputHZS = giveChip(outputHZS, internalId, allowed)
 
 with open('outputAll.txt', 'w') as outAll:
 	outAll.write(outputAll);

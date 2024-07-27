@@ -4966,6 +4966,14 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
+	setChipCode
+		chip = 14
+		code = M
+		amount = 0
+	setChipCode
+		chip = 14
+		code = R
+		amount = 0
 	checkGiveChipCode
 		chip = 14
 		code = K
@@ -4988,12 +4996,8 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 14
-		code = M
-		amount = 0
-	setChipCode
-		chip = 14
-		code = R
+		chip = 15
+		code = E
 		amount = 0
 	checkGiveChipCode
 		chip = 15
@@ -5023,10 +5027,6 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
-	setChipCode
-		chip = 15
-		code = E
-		amount = 0
 	checkGiveChipCode
 		chip = 10
 		code = H
@@ -5062,6 +5062,10 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
+	setChipCode
+		chip = 11
+		code = L
+		amount = 0
 	checkGiveChipCode
 		chip = 11
 		code = A
@@ -5091,8 +5095,8 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 11
-		code = L
+		chip = 12
+		code = C
 		amount = 0
 	checkGiveChipCode
 		chip = 12
@@ -5123,8 +5127,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 12
-		code = C
+		chip = 13
+		code = E
+		amount = 0
+	setChipCode
+		chip = 13
+		code = J
 		amount = 0
 	checkGiveChipCode
 		chip = 13
@@ -5147,14 +5155,6 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
-	setChipCode
-		chip = 13
-		code = E
-		amount = 0
-	setChipCode
-		chip = 13
-		code = J
-		amount = 0
 	checkGiveChipCode
 		chip = 7
 		code = B
@@ -5190,6 +5190,10 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
+	setChipCode
+		chip = 8
+		code = J
+		amount = 0
 	checkGiveChipCode
 		chip = 8
 		code = B
@@ -5219,8 +5223,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 8
-		code = J
+		chip = 9
+		code = G
+		amount = 0
+	setChipCode
+		chip = 9
+		code = S
 		amount = 0
 	checkGiveChipCode
 		chip = 9
@@ -5243,14 +5251,6 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
-	setChipCode
-		chip = 9
-		code = G
-		amount = 0
-	setChipCode
-		chip = 9
-		code = S
-		amount = 0
 	checkGiveChipCode
 		chip = 4
 		code = B
@@ -5281,27 +5281,6 @@ script 101 mmbn1-lc {
 		jumpIfSome = continue
 	checkGiveChipCode
 		chip = 4
-		code = S
-		amount = 99
-		jumpIfAll = continue
-		jumpIfNone = continue
-		jumpIfSome = continue
-	checkGiveChipCode
-		chip = 5
-		code = C
-		amount = 99
-		jumpIfAll = continue
-		jumpIfNone = continue
-		jumpIfSome = continue
-	checkGiveChipCode
-		chip = 5
-		code = K
-		amount = 99
-		jumpIfAll = continue
-		jumpIfNone = continue
-		jumpIfSome = continue
-	checkGiveChipCode
-		chip = 5
 		code = S
 		amount = 99
 		jumpIfAll = continue
@@ -5316,6 +5295,31 @@ script 101 mmbn1-lc {
 		code = N
 		amount = 0
 	checkGiveChipCode
+		chip = 5
+		code = C
+		amount = 99
+		jumpIfAll = continue
+		jumpIfNone = continue
+		jumpIfSome = continue
+	checkGiveChipCode
+		chip = 5
+		code = K
+		amount = 99
+		jumpIfAll = continue
+		jumpIfNone = continue
+		jumpIfSome = continue
+	checkGiveChipCode
+		chip = 5
+		code = S
+		amount = 99
+		jumpIfAll = continue
+		jumpIfNone = continue
+		jumpIfSome = continue
+	setChipCode
+		chip = 6
+		code = N
+		amount = 0
+	checkGiveChipCode
 		chip = 6
 		code = D
 		amount = 99
@@ -5344,8 +5348,8 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 6
-		code = N
+		chip = 30
+		code = K
 		amount = 0
 	checkGiveChipCode
 		chip = 30
@@ -5376,8 +5380,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 30
-		code = K
+		chip = 32
+		code = E
+		amount = 0
+	setChipCode
+		chip = 32
+		code = H
 		amount = 0
 	checkGiveChipCode
 		chip = 32
@@ -5401,12 +5409,16 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 32
-		code = E
+		chip = 33
+		code = D
 		amount = 0
 	setChipCode
-		chip = 32
-		code = H
+		chip = 33
+		code = F
+		amount = 0
+	setChipCode
+		chip = 33
+		code = J
 		amount = 0
 	checkGiveChipCode
 		chip = 33
@@ -5423,16 +5435,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 33
-		code = D
-		amount = 0
-	setChipCode
-		chip = 33
+		chip = 25
 		code = F
 		amount = 0
 	setChipCode
-		chip = 33
-		code = J
+		chip = 25
+		code = G
 		amount = 0
 	checkGiveChipCode
 		chip = 25
@@ -5456,12 +5464,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 25
-		code = F
+		chip = 27
+		code = M
 		amount = 0
 	setChipCode
-		chip = 25
-		code = G
+		chip = 27
+		code = O
 		amount = 0
 	checkGiveChipCode
 		chip = 27
@@ -5485,28 +5493,6 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 27
-		code = M
-		amount = 0
-	setChipCode
-		chip = 27
-		code = O
-		amount = 0
-	checkGiveChipCode
-		chip = 26
-		code = E
-		amount = 99
-		jumpIfAll = continue
-		jumpIfNone = continue
-		jumpIfSome = continue
-	checkGiveChipCode
-		chip = 26
-		code = S
-		amount = 99
-		jumpIfAll = continue
-		jumpIfNone = continue
-		jumpIfSome = continue
-	setChipCode
 		chip = 26
 		code = G
 		amount = 0
@@ -5519,8 +5505,15 @@ script 101 mmbn1-lc {
 		code = O
 		amount = 0
 	checkGiveChipCode
-		chip = 136
-		code = K
+		chip = 26
+		code = E
+		amount = 99
+		jumpIfAll = continue
+		jumpIfNone = continue
+		jumpIfSome = continue
+	checkGiveChipCode
+		chip = 26
+		code = S
 		amount = 99
 		jumpIfAll = continue
 		jumpIfNone = continue
@@ -5540,6 +5533,17 @@ script 101 mmbn1-lc {
 	setChipCode
 		chip = 136
 		code = J
+		amount = 0
+	checkGiveChipCode
+		chip = 136
+		code = K
+		amount = 99
+		jumpIfAll = continue
+		jumpIfNone = continue
+		jumpIfSome = continue
+	setChipCode
+		chip = 16
+		code = N
 		amount = 0
 	checkGiveChipCode
 		chip = 16
@@ -5569,10 +5573,6 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
-	setChipCode
-		chip = 16
-		code = N
-		amount = 0
 	checkGiveChipCode
 		chip = 17
 		code = C
@@ -5608,6 +5608,10 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
+	setChipCode
+		chip = 18
+		code = E
+		amount = 0
 	checkGiveChipCode
 		chip = 18
 		code = C
@@ -5637,8 +5641,8 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 18
-		code = E
+		chip = 19
+		code = L
 		amount = 0
 	checkGiveChipCode
 		chip = 19
@@ -5676,8 +5680,8 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 19
-		code = L
+		chip = 20
+		code = A
 		amount = 0
 	checkGiveChipCode
 		chip = 20
@@ -5708,8 +5712,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 20
-		code = A
+		chip = 21
+		code = H
+		amount = 0
+	setChipCode
+		chip = 21
+		code = N
 		amount = 0
 	checkGiveChipCode
 		chip = 21
@@ -5732,14 +5740,6 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
-	setChipCode
-		chip = 21
-		code = H
-		amount = 0
-	setChipCode
-		chip = 21
-		code = N
-		amount = 0
 	checkGiveChipCode
 		chip = 22
 		code = A
@@ -5775,6 +5775,14 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
+	setChipCode
+		chip = 23
+		code = I
+		amount = 0
+	setChipCode
+		chip = 23
+		code = K
+		amount = 0
 	checkGiveChipCode
 		chip = 23
 		code = B
@@ -5797,12 +5805,8 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 23
-		code = I
-		amount = 0
-	setChipCode
-		chip = 23
-		code = K
+		chip = 24
+		code = H
 		amount = 0
 	checkGiveChipCode
 		chip = 24
@@ -5833,8 +5837,16 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 24
+		chip = 28
 		code = H
+		amount = 0
+	setChipCode
+		chip = 28
+		code = N
+		amount = 0
+	setChipCode
+		chip = 28
+		code = T
 		amount = 0
 	checkGiveChipCode
 		chip = 28
@@ -5851,15 +5863,15 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 28
+		chip = 29
 		code = H
 		amount = 0
 	setChipCode
-		chip = 28
+		chip = 29
 		code = N
 		amount = 0
 	setChipCode
-		chip = 28
+		chip = 29
 		code = T
 		amount = 0
 	checkGiveChipCode
@@ -5877,16 +5889,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 29
-		code = H
+		chip = 31
+		code = L
 		amount = 0
 	setChipCode
-		chip = 29
-		code = N
-		amount = 0
-	setChipCode
-		chip = 29
-		code = T
+		chip = 31
+		code = O
 		amount = 0
 	checkGiveChipCode
 		chip = 31
@@ -5905,21 +5913,6 @@ script 101 mmbn1-lc {
 	checkGiveChipCode
 		chip = 31
 		code = G
-		amount = 99
-		jumpIfAll = continue
-		jumpIfNone = continue
-		jumpIfSome = continue
-	setChipCode
-		chip = 31
-		code = L
-		amount = 0
-	setChipCode
-		chip = 31
-		code = O
-		amount = 0
-	checkGiveChipCode
-		chip = 43
-		code = H
 		amount = 99
 		jumpIfAll = continue
 		jumpIfNone = continue
@@ -5940,6 +5933,13 @@ script 101 mmbn1-lc {
 		chip = 43
 		code = O
 		amount = 0
+	checkGiveChipCode
+		chip = 43
+		code = H
+		amount = 99
+		jumpIfAll = continue
+		jumpIfNone = continue
+		jumpIfSome = continue
 	checkGiveChipCode
 		chip = 37
 		code = A
@@ -6150,6 +6150,18 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
+	setChipCode
+		chip = 133
+		code = D
+		amount = 0
+	setChipCode
+		chip = 133
+		code = L
+		amount = 0
+	setChipCode
+		chip = 133
+		code = M
+		amount = 0
 	checkGiveChipCode
 		chip = 133
 		code = A
@@ -6165,16 +6177,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 133
-		code = D
+		chip = 134
+		code = B
 		amount = 0
 	setChipCode
-		chip = 133
-		code = L
-		amount = 0
-	setChipCode
-		chip = 133
-		code = M
+		chip = 134
+		code = E
 		amount = 0
 	checkGiveChipCode
 		chip = 134
@@ -6198,12 +6206,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 134
-		code = B
+		chip = 135
+		code = C
 		amount = 0
 	setChipCode
-		chip = 134
-		code = E
+		chip = 135
+		code = L
 		amount = 0
 	checkGiveChipCode
 		chip = 135
@@ -6227,12 +6235,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 135
-		code = C
+		chip = 127
+		code = L
 		amount = 0
 	setChipCode
-		chip = 135
-		code = L
+		chip = 127
+		code = O
 		amount = 0
 	checkGiveChipCode
 		chip = 127
@@ -6256,12 +6264,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 127
-		code = L
+		chip = 128
+		code = F
 		amount = 0
 	setChipCode
-		chip = 127
-		code = O
+		chip = 128
+		code = P
 		amount = 0
 	checkGiveChipCode
 		chip = 128
@@ -6285,12 +6293,16 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 128
-		code = F
+		chip = 129
+		code = G
 		amount = 0
 	setChipCode
-		chip = 128
-		code = P
+		chip = 129
+		code = R
+		amount = 0
+	setChipCode
+		chip = 129
+		code = T
 		amount = 0
 	checkGiveChipCode
 		chip = 129
@@ -6307,16 +6319,8 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 129
-		code = G
-		amount = 0
-	setChipCode
-		chip = 129
-		code = R
-		amount = 0
-	setChipCode
-		chip = 129
-		code = T
+		chip = 44
+		code = E
 		amount = 0
 	checkGiveChipCode
 		chip = 44
@@ -6347,8 +6351,8 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 44
-		code = E
+		chip = 45
+		code = B
 		amount = 0
 	checkGiveChipCode
 		chip = 45
@@ -6379,8 +6383,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 45
-		code = B
+		chip = 46
+		code = G
+		amount = 0
+	setChipCode
+		chip = 46
+		code = K
 		amount = 0
 	checkGiveChipCode
 		chip = 46
@@ -6404,12 +6412,8 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 46
-		code = G
-		amount = 0
-	setChipCode
-		chip = 46
-		code = K
+		chip = 112
+		code = M
 		amount = 0
 	checkGiveChipCode
 		chip = 112
@@ -6440,8 +6444,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 112
-		code = M
+		chip = 113
+		code = E
+		amount = 0
+	setChipCode
+		chip = 113
+		code = G
 		amount = 0
 	checkGiveChipCode
 		chip = 113
@@ -6465,12 +6473,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 113
-		code = E
+		chip = 114
+		code = O
 		amount = 0
 	setChipCode
-		chip = 113
-		code = G
+		chip = 114
+		code = R
 		amount = 0
 	checkGiveChipCode
 		chip = 114
@@ -6493,14 +6501,6 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
-	setChipCode
-		chip = 114
-		code = O
-		amount = 0
-	setChipCode
-		chip = 114
-		code = R
-		amount = 0
 	checkGiveChipCode
 		chip = 40
 		code = A
@@ -6536,6 +6536,10 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
+	setChipCode
+		chip = 41
+		code = K
+		amount = 0
 	checkGiveChipCode
 		chip = 41
 		code = G
@@ -6565,8 +6569,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 41
-		code = K
+		chip = 42
+		code = E
+		amount = 0
+	setChipCode
+		chip = 42
+		code = I
 		amount = 0
 	checkGiveChipCode
 		chip = 42
@@ -6590,12 +6598,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 42
-		code = E
+		chip = 49
+		code = G
 		amount = 0
 	setChipCode
-		chip = 42
-		code = I
+		chip = 49
+		code = N
 		amount = 0
 	checkGiveChipCode
 		chip = 49
@@ -6619,11 +6627,11 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 49
-		code = G
+		chip = 50
+		code = H
 		amount = 0
 	setChipCode
-		chip = 49
+		chip = 50
 		code = N
 		amount = 0
 	checkGiveChipCode
@@ -6648,12 +6656,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 50
-		code = H
+		chip = 51
+		code = F
 		amount = 0
 	setChipCode
-		chip = 50
-		code = N
+		chip = 51
+		code = L
 		amount = 0
 	checkGiveChipCode
 		chip = 51
@@ -6677,12 +6685,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 51
-		code = F
+		chip = 121
+		code = B
 		amount = 0
 	setChipCode
-		chip = 51
-		code = L
+		chip = 121
+		code = D
 		amount = 0
 	checkGiveChipCode
 		chip = 121
@@ -6706,12 +6714,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 121
-		code = B
+		chip = 122
+		code = C
 		amount = 0
 	setChipCode
-		chip = 121
-		code = D
+		chip = 122
+		code = H
 		amount = 0
 	checkGiveChipCode
 		chip = 122
@@ -6735,12 +6743,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 122
-		code = C
+		chip = 123
+		code = E
 		amount = 0
 	setChipCode
-		chip = 122
-		code = H
+		chip = 123
+		code = L
 		amount = 0
 	checkGiveChipCode
 		chip = 123
@@ -6764,12 +6772,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 123
-		code = E
+		chip = 55
+		code = M
 		amount = 0
 	setChipCode
-		chip = 123
-		code = L
+		chip = 55
+		code = N
 		amount = 0
 	checkGiveChipCode
 		chip = 55
@@ -6793,12 +6801,8 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 55
-		code = M
-		amount = 0
-	setChipCode
-		chip = 55
-		code = N
+		chip = 64
+		code = D
 		amount = 0
 	checkGiveChipCode
 		chip = 64
@@ -6829,7 +6833,7 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 64
+		chip = 65
 		code = D
 		amount = 0
 	checkGiveChipCode
@@ -6861,8 +6865,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 65
-		code = D
+		chip = 52
+		code = A
+		amount = 0
+	setChipCode
+		chip = 52
+		code = Q
 		amount = 0
 	checkGiveChipCode
 		chip = 52
@@ -6886,12 +6894,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 52
-		code = A
+		chip = 34
+		code = C
 		amount = 0
 	setChipCode
-		chip = 52
-		code = Q
+		chip = 34
+		code = E
 		amount = 0
 	checkGiveChipCode
 		chip = 34
@@ -6914,14 +6922,6 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
-	setChipCode
-		chip = 34
-		code = C
-		amount = 0
-	setChipCode
-		chip = 34
-		code = E
-		amount = 0
 	checkGiveChipCode
 		chip = 145
 		code = A
@@ -6957,6 +6957,10 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
+	setChipCode
+		chip = 67
+		code = E
+		amount = 0
 	checkGiveChipCode
 		chip = 67
 		code = A
@@ -6986,7 +6990,11 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 67
+		chip = 68
+		code = A
+		amount = 0
+	setChipCode
+		chip = 68
 		code = E
 		amount = 0
 	checkGiveChipCode
@@ -7011,12 +7019,8 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 68
-		code = A
-		amount = 0
-	setChipCode
-		chip = 68
-		code = E
+		chip = 69
+		code = C
 		amount = 0
 	checkGiveChipCode
 		chip = 69
@@ -7046,10 +7050,6 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
-	setChipCode
-		chip = 69
-		code = C
-		amount = 0
 	checkGiveChipCode
 		chip = 70
 		code = A
@@ -7085,6 +7085,14 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
+	setChipCode
+		chip = 71
+		code = E
+		amount = 0
+	setChipCode
+		chip = 71
+		code = G
+		amount = 0
 	checkGiveChipCode
 		chip = 71
 		code = A
@@ -7106,14 +7114,6 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
-	setChipCode
-		chip = 71
-		code = E
-		amount = 0
-	setChipCode
-		chip = 71
-		code = G
-		amount = 0
 	checkGiveChipCode
 		chip = 72
 		code = A
@@ -7149,6 +7149,10 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
+	setChipCode
+		chip = 73
+		code = E
+		amount = 0
 	checkGiveChipCode
 		chip = 73
 		code = A
@@ -7178,8 +7182,16 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 73
+		chip = 74
+		code = A
+		amount = 0
+	setChipCode
+		chip = 74
 		code = E
+		amount = 0
+	setChipCode
+		chip = 74
+		code = G
 		amount = 0
 	checkGiveChipCode
 		chip = 74
@@ -7196,16 +7208,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 74
-		code = A
-		amount = 0
-	setChipCode
-		chip = 74
+		chip = 76
 		code = E
 		amount = 0
 	setChipCode
-		chip = 74
-		code = G
+		chip = 76
+		code = P
 		amount = 0
 	checkGiveChipCode
 		chip = 76
@@ -7229,12 +7237,16 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 76
-		code = E
+		chip = 79
+		code = F
 		amount = 0
 	setChipCode
-		chip = 76
-		code = P
+		chip = 79
+		code = J
+		amount = 0
+	setChipCode
+		chip = 79
+		code = N
 		amount = 0
 	checkGiveChipCode
 		chip = 79
@@ -7251,16 +7263,16 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 79
-		code = F
+		chip = 80
+		code = B
 		amount = 0
 	setChipCode
-		chip = 79
-		code = J
+		chip = 80
+		code = E
 		amount = 0
 	setChipCode
-		chip = 79
-		code = N
+		chip = 80
+		code = I
 		amount = 0
 	checkGiveChipCode
 		chip = 80
@@ -7276,18 +7288,6 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
-	setChipCode
-		chip = 80
-		code = B
-		amount = 0
-	setChipCode
-		chip = 80
-		code = E
-		amount = 0
-	setChipCode
-		chip = 80
-		code = I
-		amount = 0
 	checkGiveChipCode
 		chip = 82
 		code = F
@@ -7323,13 +7323,6 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
-	checkGiveChipCode
-		chip = 83
-		code = L
-		amount = 99
-		jumpIfAll = continue
-		jumpIfNone = continue
-		jumpIfSome = continue
 	setChipCode
 		chip = 83
 		code = F
@@ -7345,6 +7338,21 @@ script 101 mmbn1-lc {
 	setChipCode
 		chip = 83
 		code = N
+		amount = 0
+	checkGiveChipCode
+		chip = 83
+		code = L
+		amount = 99
+		jumpIfAll = continue
+		jumpIfNone = continue
+		jumpIfSome = continue
+	setChipCode
+		chip = 88
+		code = K
+		amount = 0
+	setChipCode
+		chip = 88
+		code = S
 		amount = 0
 	checkGiveChipCode
 		chip = 88
@@ -7368,12 +7376,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 88
-		code = K
+		chip = 97
+		code = E
 		amount = 0
 	setChipCode
-		chip = 88
-		code = S
+		chip = 97
+		code = G
 		amount = 0
 	checkGiveChipCode
 		chip = 97
@@ -7397,12 +7405,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 97
-		code = E
+		chip = 98
+		code = F
 		amount = 0
 	setChipCode
-		chip = 97
-		code = G
+		chip = 98
+		code = L
 		amount = 0
 	checkGiveChipCode
 		chip = 98
@@ -7426,12 +7434,8 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 98
-		code = F
-		amount = 0
-	setChipCode
-		chip = 98
-		code = L
+		chip = 99
+		code = A
 		amount = 0
 	checkGiveChipCode
 		chip = 99
@@ -7462,8 +7466,8 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 99
-		code = A
+		chip = 91
+		code = G
 		amount = 0
 	checkGiveChipCode
 		chip = 91
@@ -7494,8 +7498,8 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 91
-		code = G
+		chip = 92
+		code = D
 		amount = 0
 	checkGiveChipCode
 		chip = 92
@@ -7526,8 +7530,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 92
-		code = D
+		chip = 93
+		code = F
+		amount = 0
+	setChipCode
+		chip = 93
+		code = J
 		amount = 0
 	checkGiveChipCode
 		chip = 93
@@ -7551,12 +7559,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 93
-		code = F
+		chip = 124
+		code = N
 		amount = 0
 	setChipCode
-		chip = 93
-		code = J
+		chip = 124
+		code = P
 		amount = 0
 	checkGiveChipCode
 		chip = 124
@@ -7580,12 +7588,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 124
-		code = N
+		chip = 125
+		code = E
 		amount = 0
 	setChipCode
-		chip = 124
-		code = P
+		chip = 125
+		code = G
 		amount = 0
 	checkGiveChipCode
 		chip = 125
@@ -7604,35 +7612,6 @@ script 101 mmbn1-lc {
 	checkGiveChipCode
 		chip = 125
 		code = L
-		amount = 99
-		jumpIfAll = continue
-		jumpIfNone = continue
-		jumpIfSome = continue
-	setChipCode
-		chip = 125
-		code = E
-		amount = 0
-	setChipCode
-		chip = 125
-		code = G
-		amount = 0
-	checkGiveChipCode
-		chip = 126
-		code = A
-		amount = 99
-		jumpIfAll = continue
-		jumpIfNone = continue
-		jumpIfSome = continue
-	checkGiveChipCode
-		chip = 126
-		code = B
-		amount = 99
-		jumpIfAll = continue
-		jumpIfNone = continue
-		jumpIfSome = continue
-	checkGiveChipCode
-		chip = 126
-		code = T
 		amount = 99
 		jumpIfAll = continue
 		jumpIfNone = continue
@@ -7646,6 +7625,35 @@ script 101 mmbn1-lc {
 		code = R
 		amount = 0
 	checkGiveChipCode
+		chip = 126
+		code = A
+		amount = 99
+		jumpIfAll = continue
+		jumpIfNone = continue
+		jumpIfSome = continue
+	checkGiveChipCode
+		chip = 126
+		code = B
+		amount = 99
+		jumpIfAll = continue
+		jumpIfNone = continue
+		jumpIfSome = continue
+	checkGiveChipCode
+		chip = 126
+		code = T
+		amount = 99
+		jumpIfAll = continue
+		jumpIfNone = continue
+		jumpIfSome = continue
+	setChipCode
+		chip = 139
+		code = G
+		amount = 0
+	setChipCode
+		chip = 139
+		code = S
+		amount = 0
+	checkGiveChipCode
 		chip = 139
 		code = B
 		amount = 99
@@ -7667,12 +7675,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 139
-		code = G
+		chip = 140
+		code = M
 		amount = 0
 	setChipCode
-		chip = 139
-		code = S
+		chip = 140
+		code = N
 		amount = 0
 	checkGiveChipCode
 		chip = 140
@@ -7691,35 +7699,6 @@ script 101 mmbn1-lc {
 	checkGiveChipCode
 		chip = 140
 		code = K
-		amount = 99
-		jumpIfAll = continue
-		jumpIfNone = continue
-		jumpIfSome = continue
-	setChipCode
-		chip = 140
-		code = M
-		amount = 0
-	setChipCode
-		chip = 140
-		code = N
-		amount = 0
-	checkGiveChipCode
-		chip = 141
-		code = G
-		amount = 99
-		jumpIfAll = continue
-		jumpIfNone = continue
-		jumpIfSome = continue
-	checkGiveChipCode
-		chip = 141
-		code = K
-		amount = 99
-		jumpIfAll = continue
-		jumpIfNone = continue
-		jumpIfSome = continue
-	checkGiveChipCode
-		chip = 141
-		code = M
 		amount = 99
 		jumpIfAll = continue
 		jumpIfNone = continue
@@ -7733,6 +7712,31 @@ script 101 mmbn1-lc {
 		code = P
 		amount = 0
 	checkGiveChipCode
+		chip = 141
+		code = G
+		amount = 99
+		jumpIfAll = continue
+		jumpIfNone = continue
+		jumpIfSome = continue
+	checkGiveChipCode
+		chip = 141
+		code = K
+		amount = 99
+		jumpIfAll = continue
+		jumpIfNone = continue
+		jumpIfSome = continue
+	checkGiveChipCode
+		chip = 141
+		code = M
+		amount = 99
+		jumpIfAll = continue
+		jumpIfNone = continue
+		jumpIfSome = continue
+	setChipCode
+		chip = 105
+		code = F
+		amount = 0
+	checkGiveChipCode
 		chip = 105
 		code = A
 		amount = 99
@@ -7761,8 +7765,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 105
-		code = F
+		chip = 106
+		code = B
+		amount = 0
+	setChipCode
+		chip = 106
+		code = H
 		amount = 0
 	checkGiveChipCode
 		chip = 106
@@ -7786,12 +7794,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 106
-		code = B
+		chip = 107
+		code = J
 		amount = 0
 	setChipCode
-		chip = 106
-		code = H
+		chip = 107
+		code = K
 		amount = 0
 	checkGiveChipCode
 		chip = 107
@@ -7815,12 +7823,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 107
-		code = J
+		chip = 61
+		code = C
 		amount = 0
 	setChipCode
-		chip = 107
-		code = K
+		chip = 61
+		code = L
 		amount = 0
 	checkGiveChipCode
 		chip = 61
@@ -7844,12 +7852,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 61
-		code = C
+		chip = 62
+		code = B
 		amount = 0
 	setChipCode
-		chip = 61
-		code = L
+		chip = 62
+		code = M
 		amount = 0
 	checkGiveChipCode
 		chip = 62
@@ -7873,12 +7881,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 62
-		code = B
+		chip = 63
+		code = A
 		amount = 0
 	setChipCode
-		chip = 62
-		code = M
+		chip = 63
+		code = O
 		amount = 0
 	checkGiveChipCode
 		chip = 63
@@ -7902,12 +7910,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 63
-		code = A
+		chip = 115
+		code = F
 		amount = 0
 	setChipCode
-		chip = 63
-		code = O
+		chip = 115
+		code = I
 		amount = 0
 	checkGiveChipCode
 		chip = 115
@@ -7931,12 +7939,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 115
-		code = F
+		chip = 116
+		code = J
 		amount = 0
 	setChipCode
-		chip = 115
-		code = I
+		chip = 116
+		code = L
 		amount = 0
 	checkGiveChipCode
 		chip = 116
@@ -7960,12 +7968,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 116
-		code = J
+		chip = 117
+		code = D
 		amount = 0
 	setChipCode
-		chip = 116
-		code = L
+		chip = 117
+		code = K
 		amount = 0
 	checkGiveChipCode
 		chip = 117
@@ -7984,21 +7992,6 @@ script 101 mmbn1-lc {
 	checkGiveChipCode
 		chip = 117
 		code = M
-		amount = 99
-		jumpIfAll = continue
-		jumpIfNone = continue
-		jumpIfSome = continue
-	setChipCode
-		chip = 117
-		code = D
-		amount = 0
-	setChipCode
-		chip = 117
-		code = K
-		amount = 0
-	checkGiveChipCode
-		chip = 142
-		code = L
 		amount = 99
 		jumpIfAll = continue
 		jumpIfNone = continue
@@ -8019,6 +8012,13 @@ script 101 mmbn1-lc {
 		chip = 142
 		code = T
 		amount = 0
+	checkGiveChipCode
+		chip = 142
+		code = L
+		amount = 99
+		jumpIfAll = continue
+		jumpIfNone = continue
+		jumpIfSome = continue
 	checkGiveChipCode
 		chip = 94
 		code = A
@@ -8054,20 +8054,6 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
-	checkGiveChipCode
-		chip = 95
-		code = M
-		amount = 99
-		jumpIfAll = continue
-		jumpIfNone = continue
-		jumpIfSome = continue
-	checkGiveChipCode
-		chip = 95
-		code = O
-		amount = 99
-		jumpIfAll = continue
-		jumpIfNone = continue
-		jumpIfSome = continue
 	setChipCode
 		chip = 95
 		code = B
@@ -8081,8 +8067,15 @@ script 101 mmbn1-lc {
 		code = G
 		amount = 0
 	checkGiveChipCode
-		chip = 108
-		code = A
+		chip = 95
+		code = M
+		amount = 99
+		jumpIfAll = continue
+		jumpIfNone = continue
+		jumpIfSome = continue
+	checkGiveChipCode
+		chip = 95
+		code = O
 		amount = 99
 		jumpIfAll = continue
 		jumpIfNone = continue
@@ -8104,8 +8097,8 @@ script 101 mmbn1-lc {
 		code = R
 		amount = 0
 	checkGiveChipCode
-		chip = 109
-		code = D
+		chip = 108
+		code = A
 		amount = 99
 		jumpIfAll = continue
 		jumpIfNone = continue
@@ -8127,8 +8120,8 @@ script 101 mmbn1-lc {
 		code = T
 		amount = 0
 	checkGiveChipCode
-		chip = 110
-		code = S
+		chip = 109
+		code = D
 		amount = 99
 		jumpIfAll = continue
 		jumpIfNone = continue
@@ -8150,8 +8143,8 @@ script 101 mmbn1-lc {
 		code = P
 		amount = 0
 	checkGiveChipCode
-		chip = 111
-		code = C
+		chip = 110
+		code = S
 		amount = 99
 		jumpIfAll = continue
 		jumpIfNone = continue
@@ -8173,8 +8166,8 @@ script 101 mmbn1-lc {
 		code = Q
 		amount = 0
 	checkGiveChipCode
-		chip = 118
-		code = Q
+		chip = 111
+		code = C
 		amount = 99
 		jumpIfAll = continue
 		jumpIfNone = continue
@@ -8196,8 +8189,8 @@ script 101 mmbn1-lc {
 		code = O
 		amount = 0
 	checkGiveChipCode
-		chip = 119
-		code = A
+		chip = 118
+		code = Q
 		amount = 99
 		jumpIfAll = continue
 		jumpIfNone = continue
@@ -8219,6 +8212,17 @@ script 101 mmbn1-lc {
 		code = N
 		amount = 0
 	checkGiveChipCode
+		chip = 119
+		code = A
+		amount = 99
+		jumpIfAll = continue
+		jumpIfNone = continue
+		jumpIfSome = continue
+	setChipCode
+		chip = 100
+		code = O
+		amount = 0
+	checkGiveChipCode
 		chip = 100
 		code = I
 		amount = 99
@@ -8247,8 +8251,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 100
-		code = O
+		chip = 101
+		code = F
+		amount = 0
+	setChipCode
+		chip = 101
+		code = M
 		amount = 0
 	checkGiveChipCode
 		chip = 101
@@ -8272,21 +8280,6 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 101
-		code = F
-		amount = 0
-	setChipCode
-		chip = 101
-		code = M
-		amount = 0
-	checkGiveChipCode
-		chip = 102
-		code = N
-		amount = 99
-		jumpIfAll = continue
-		jumpIfNone = continue
-		jumpIfSome = continue
-	setChipCode
 		chip = 102
 		code = B
 		amount = 0
@@ -8303,8 +8296,8 @@ script 101 mmbn1-lc {
 		code = K
 		amount = 0
 	checkGiveChipCode
-		chip = 137
-		code = B
+		chip = 102
+		code = N
 		amount = 99
 		jumpIfAll = continue
 		jumpIfNone = continue
@@ -8325,6 +8318,13 @@ script 101 mmbn1-lc {
 		chip = 137
 		code = T
 		amount = 0
+	checkGiveChipCode
+		chip = 137
+		code = B
+		amount = 99
+		jumpIfAll = continue
+		jumpIfNone = continue
+		jumpIfSome = continue
 	checkGiveChipCode
 		chip = 138
 		code = C
@@ -8360,6 +8360,14 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
+	setChipCode
+		chip = 103
+		code = D
+		amount = 0
+	setChipCode
+		chip = 103
+		code = L
+		amount = 0
 	checkGiveChipCode
 		chip = 103
 		code = C
@@ -8382,12 +8390,16 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 103
+		chip = 147
 		code = D
 		amount = 0
 	setChipCode
-		chip = 103
-		code = L
+		chip = 147
+		code = M
+		amount = 0
+	setChipCode
+		chip = 147
+		code = R
 		amount = 0
 	checkGiveChipCode
 		chip = 147
@@ -8404,16 +8416,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 147
-		code = D
+		chip = 130
+		code = C
 		amount = 0
 	setChipCode
-		chip = 147
+		chip = 130
 		code = M
-		amount = 0
-	setChipCode
-		chip = 147
-		code = R
 		amount = 0
 	checkGiveChipCode
 		chip = 130
@@ -8437,12 +8445,8 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 130
-		code = C
-		amount = 0
-	setChipCode
-		chip = 130
-		code = M
+		chip = 131
+		code = K
 		amount = 0
 	checkGiveChipCode
 		chip = 131
@@ -8473,8 +8477,8 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 131
-		code = K
+		chip = 132
+		code = A
 		amount = 0
 	checkGiveChipCode
 		chip = 132
@@ -8505,8 +8509,16 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 132
-		code = A
+		chip = 146
+		code = D
+		amount = 0
+	setChipCode
+		chip = 146
+		code = F
+		amount = 0
+	setChipCode
+		chip = 146
+		code = K
 		amount = 0
 	checkGiveChipCode
 		chip = 146
@@ -8523,16 +8535,12 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 146
+		chip = 85
 		code = D
 		amount = 0
 	setChipCode
-		chip = 146
-		code = F
-		amount = 0
-	setChipCode
-		chip = 146
-		code = K
+		chip = 85
+		code = E
 		amount = 0
 	checkGiveChipCode
 		chip = 85
@@ -8556,12 +8564,16 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 85
-		code = D
+		chip = 86
+		code = G
 		amount = 0
 	setChipCode
-		chip = 85
-		code = E
+		chip = 86
+		code = N
+		amount = 0
+	setChipCode
+		chip = 86
+		code = T
 		amount = 0
 	checkGiveChipCode
 		chip = 86
@@ -8578,16 +8590,16 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 86
-		code = G
+		chip = 87
+		code = J
 		amount = 0
 	setChipCode
-		chip = 86
-		code = N
+		chip = 87
+		code = O
 		amount = 0
 	setChipCode
-		chip = 86
-		code = T
+		chip = 87
+		code = Q
 		amount = 0
 	checkGiveChipCode
 		chip = 87
@@ -8604,16 +8616,8 @@ script 101 mmbn1-lc {
 		jumpIfNone = continue
 		jumpIfSome = continue
 	setChipCode
-		chip = 87
-		code = J
-		amount = 0
-	setChipCode
-		chip = 87
-		code = O
-		amount = 0
-	setChipCode
-		chip = 87
-		code = Q
+		chip = 84
+		code = A
 		amount = 0
 	checkGiveChipCode
 		chip = 84
@@ -8643,10 +8647,6 @@ script 101 mmbn1-lc {
 		jumpIfAll = continue
 		jumpIfNone = continue
 		jumpIfSome = continue
-	setChipCode
-		chip = 84
-		code = A
-		amount = 0
 	setChipCode
 		chip = 160
 		code = R
