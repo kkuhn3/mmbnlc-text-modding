@@ -42,7 +42,7 @@ The `Z` will be replaced with the game-appropriate suffix. By game these suffixe
 | MMBN 5 Protoman | 5 | exe5.bat |
 | MMBN 5 Colonel | 5k | exe5k.bat |
 | MMBN 6 Gregar | 6 | exe6.bat |
-| MMBN 6 Falzer | 6 | exe6f.bat |
+| MMBN 6 Falzer | 6f | exe6f.bat |
 
 #### message_eng_msg
 

@@ -2,7 +2,7 @@
 cls
 
 cd ..\..
-call 1_extractor.bat 3
+call 1_extractor.bat 9
 
 ROBOCOPY %~dp0modded_tpls .\4_editted *.*
 
