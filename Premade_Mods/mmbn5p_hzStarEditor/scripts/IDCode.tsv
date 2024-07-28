@@ -1,0 +1,281 @@
+ID	Internal Id	Name	Codes	Allowed	Banned
+1	1	Cannon	A, B, C, *	A, B, C, *	
+2	2	HiCannon	D, E, F	D, E, F	
+3	3	M-Cannon	F, G, H	F, G, H	
+4	4	AirShot	*	*	
+5	15	Vulcan1	C, D, E, *	C, D, E, *	
+6	16	Vulcan2	A, B, C	A, B, C	
+7	17	Vulcan3	L, M, N	L, M, N	
+8	18	Spreader	C, D, E, *	C, D, E, *	
+9	12	MrkCan1	K, M, S	K, M, S	
+10	13	MrkCan2	D, F, Z	D, F, Z	
+11	14	MrkCan3	E, R, Y	E, R	Y
+12	21	Pulsar1	F, P, T	F, P, T	
+13	22	Pulsar2	E, G, M	E, G	M
+14	23	Pulsar3	C, R, S	C, R, S	
+15	63	TankCan1	A, E, P	A, E, P	
+16	64	TankCan2	B, T, Y	B, T, Y	
+17	65	TankCan3	F, M, R	F, M	R
+18	9	WideSht1	L, M, N	L, M, N	
+19	10	WideSht2	E, F, G	E, F, G	
+20	11	WideSht3	S, T, U	S, T, U	
+21	163	ElcReel1	C, V, Z	C, V, Z	
+22	164	ElcReel2	B, Q, Y	B, Q	Y
+23	165	ElcReel3	E, L, R	E, L	R
+24	175	CactBal1	H, I, J	H, I, J	
+25	176	CactBal2	Q, R, S	Q, R, S	
+26	177	CactBal3	L, M, N	L, M, N	
+27	32	GunDelS1	A, S, U, *	A, S, U, *	
+28	33	GunDelS2	G, U, Y	G, U, Y	
+29	34	GunDelS3	D, M, O	D, M, O	
+30	128	ElemRage	E, K, W	E, K, W	
+31	19	Thunder	B, L, P, *	B, L, P, *	
+32	8	Tornado	D, L, R	D, L, R	
+33	27	Static	N, S, V	N, S, V	
+34	29	MiniBomb	B, G, L, *	B, G, L, *	
+35	30	EnergBom	E, P, W	E, P, W	
+36	31	MegEnBom	C, K, Z	C, K, Z	
+37	38	CrakBom	C, R, V, *	C, R, V, *	
+38	39	ParaBom	H, N, P	H, N, P	
+39	40	ResetBom	D, I, O	D, I, O	
+40	35	Quake1	A, K, P	A, K, P	
+41	36	Quake2	B, L, Y	B, L	Y
+42	37	Quake3	F, H, N	F, H	N
+43	41	BugBomb	A, R, T, *	A, R, T, *	
+44	44	CannBall	C, T, Z, *	C, T, Z, *	
+45	46	BlkBomb	L, R, Z	L, R, Z	
+46	45	Geyser	G, M, S	G, M, S	
+47	43	LavaSeed	H, K, P	H, K, P	
+48	47	SeaSeed	D, J, M, *	D, J, M, *	
+49	20	IceSeed	A, K, Q, *	A, K, Q, *	
+50	42	GrasSeed	A, M, W, *	A, M, W, *	
+51	48	Sword	C, L, S	C, L, S	
+52	49	WideSwrd	K, S, Z	K, S, Z	
+53	50	LongSwrd	C, M, S	C, M, S	
+54	51	WideBlde	A, L, V	A, L, V	
+55	52	LongBlde	E, L, P	E, L, P	
+56	54	CustSwrd	E, L, R	E, L, R	
+57	55	VarSwrd	B, C, V	B, C, V	
+58	56	Slasher	B, I, R	B, I, R	
+59	53	WindRack	B, F, J, *	B, F, J, *	
+60	57	MoonBld1	E, N, Z	E, N	Z
+61	58	MoonBld2	G, O, V	G, O	V
+62	59	MoonBld3	C, L, T	C, L	T
+63	60	Katana1	D, H, S	D, H, S	
+64	61	Katana2	B, R, W	B, R, W	
+65	62	Katana3	A, J, Z	A, J, Z	
+66	82	YoYo	D, E, F	D, E, F	
+67	72	DrilArm1	A, J, W	A, J, W	
+68	73	DrilArm2	D, L, S	D, L, S	
+69	74	DrilArm3	I, P, Z	I, P, Z	
+70	5	AirHoc	Q, R, S	Q, R, S	
+71	69	Skully1	C, K, S	C, K	S
+72	70	Skully2	A, H, V	A, H	V
+73	71	Skully3	G, N, U	G, N	U
+74	157	AqWhirl1	B, F, N	B, F	N
+75	158	AqWhirl2	A, H, O	A, H, O	
+76	159	AqWhirl3	D, I, R	D, I	R
+77	130	AirSpin1	C, E, O	C, E, O	
+78	131	AirSpin2	B, H, W	B, H, W	
+79	132	AirSpin3	A, G, J	A, G, J	
+80	151	FireHit1	O, P, Q	O, P, Q	
+81	152	FireHit2	H, I, J	H, I, J	
+82	153	FireHit3	E, F, G	E, F, G	
+83	154	HotBody1	A, F, P	A, F	P
+84	155	HotBody2	C, R, W	C, R	W
+85	156	HotBody3	J, M, S	J, M	S
+86	160	SideBub1	D, Q, S	D, Q, S	
+87	161	SideBub2	H, L, W	H, L, W	
+88	162	SideBub3	E, N, P	E, N, P	
+89	166	CusVolt1	A, V, Y	A, V, Y	
+90	167	CusVolt2	C, E, G	C, E, G	
+91	168	CusVolt3	G, M, P	G, M, P	
+92	6	Boomer	A, L, V, *	A, L, V, *	
+93	104	Astroid1	A, Q, T	A, Q, T	
+94	105	Astroid2	E, M, U	E, M	U
+95	106	Astroid3	C, P, Y	C, P, Y	
+96	24	SpShake1	G, H, I	G, H, I	
+97	25	SpShake2	B, C, D	B, C, D	
+98	26	SpShake3	S, T, U	S, T, U	
+99	78	Voltz1	K, O, Y	K, O, Y	
+100	79	Voltz2	J, U, Z	J, U, Z	
+101	80	Voltz3	A, H, V	A, H, V	
+102	178	WoodNos1	F, R, W	F, R	W
+103	179	WoodNos2	J, T, Z	J, T, Z	
+104	180	WoodNos3	I, S, V	I, S	V
+105	81	Lance	C, L, R, *	C, L, R, *	
+106	172	WavePit	B, E, Z	B, E, Z	
+107	173	RedWave	A, F, H	A, F, H	
+108	174	MudWave	D, N, W	D, N, W	
+109	126	RainyDay	B, G, L	B, G, L	
+110	96	Snake	C, M, Z	M, Z	C
+111	94	Magnum	E, O, V	E, O, V	
+112	97	CircGun	A, C, F	A, C, F	
+113	75	TimeBom1	H, N, T	H, N, T	
+114	76	TimeBom2	D, H, Z	D, H	Z
+115	77	TimeBom3	F, H, S	F, H, S	
+116	85	BoyBomb1	C, F, S	C, F, S	
+117	86	BoyBomb2	H, P, W	H, P	W
+118	87	BoyBomb3	B, Q, Y	B, Q	Y
+119	98	Mine	H, P, T	H, P, T	
+120	99	RockCube	*	*	
+121	83	Wind	*	*	
+122	84	Fan	*	*	
+123	100	Fanfare	F, P, Z, *	F, P, Z, *	
+124	101	Discord	B, J, Q, *	B, J, Q, *	
+125	102	Timpani	A, L, V, *	A, L, *	V
+126	7	Silence	C, J, N, *	C, J, *	N
+127	66	RedFrut1	E, K, Z	E, K, Z	
+128	67	RedFrut2	F, T, W	F, T, W	
+129	68	RedFrut3	H, O, U	H, O, U	
+130	103	VDoll	O, T, Z	O, T, Z	
+131	88	Guard1	A, D, K, *	A, D, *	K
+132	89	Guard2	B, L, Q, *	B, L, *	Q
+133	90	Guard3	C, M, S, *	C, M, *	S
+134	169	CrsShld1	B, F, V	B, F, V	
+135	170	CrsShld2	C, M, R	C, M	R
+136	171	CrsShld3	D, O, Z	D, O, Z	
+137	91	CrakOut	*	*	
+138	92	DublCrak	*	*	
+139	93	TripCrak	*	*	
+140	107	Recov10	A, C, L, *	A, C, L, *	
+141	108	Recov30	C, H, L, *	C, H, L, *	
+142	109	Recov50	B, H, O, *	B, H, O, *	
+143	110	Recov80	B, K, O, *	B, K, O, *	
+144	111	Recov120	K	K	
+145	112	Recov150	Q	Q	
+146	113	Recov200	I	I	
+147	114	Recov300	Y	Y	
+148	116	PanlGrab	*	*	
+149	117	AreaGrab	A, L, S, *	A, L, S	*
+150	95	MetaGel	F, N, T	F, N, T	
+151	119	GrabBnsh	D, L, R	D, L, R	
+152	118	GrabRvng	F, N, P	F, N, P	
+153	122	PnlRetrn	*	*	
+154	123	Geddon1	M, P, Z, *	M, P, Z, *	
+155	124	Geddon2	H, T, W	H, T, W	
+156	125	Geddon3	A, O, V	A, O, V	
+157	120	SloGauge	H, Q, W, *	H, Q, W, *	
+158	121	FstGauge	H, Q, W, *	H, Q, W, *	
+159	115	BusterUp	*	*	
+160	129	Blinder	A, D, H, *	A, D, H	*
+161	138	NrthWind	D, Q, V, *	D, Q, V, *	
+162	139	HolyPanl	A, N, U, *	A, N, U, *	
+163	133	Invisibl	*	*	
+164	135	Barrier	B, L, S, *	B, L, S, *	
+165	136	Barr100	P	P	
+166	137	Barr200	W	W	
+167	134	BblWrap	Y	Y	
+168	140	AntiFire	E, K, T, *	E, K, T, *	
+169	141	AntiWatr	D, G, Q, *	D, G, Q, *	
+170	142	AntiElec	A, N, Y, *	A, N, Y, *	
+171	143	AntiWood	M, S, Z, *	M, S, Z, *	
+172	145	AntiDmg	C, F, M, *	C, F, M, *	
+173	146	AntiSwrd	D, O, R	O, R	D
+174	144	AntiNavi	M, T, V	M, T, V	
+175	147	AntiRecv	B, J, P	B, J, P	
+176	148	CopyDmg	*	*	
+177	28	LifeSync	B, R, S, *	B, R, S, *	
+178	149	Attck+10	*	*	
+179	150	Navi+20	*	*	
+180	127	ColorPt	*	*	
+601	220	SuprVulc	S	S	
+602	217	NeoVari	V	V	
+603	210	Meteors	R	R	
+604	211	NumbrBl	N	N	
+605	203	Guardian	O	O	
+606	212	Jealousy	J	J	
+607	213	Poltrgst	P	P	
+608	206	BugFix	H, *	H, *	
+609	209	FullCust	*	*	
+610	201	LifeAur	D	D	
+611	208	Snctuary	S	S	
+612	205	Attck+30	*	*	
+613	207	DblPoint	*	*	
+614	202	Muramasa	M	M	
+615	204	Anubis	A	A	
+616	214	BlakWing	W	W	
+617	216	JustcOne	J	J	
+618	218	Z Saver	Z	Z	
+619	221	Roll	R		R
+620	222	RollSP	R		R
+621	223	RollDS	R		R
+622	239	ProtoMan	B		B
+623	240	ProtoMnSP	B		B
+624	241	ProtoMnDS	B		B
+625	224	GyroMan	G		G
+626	225	GyroMnSP	G		G
+627	226	GyroMnDS	G		G
+628	230	SerchMan	S		S
+629	231	SerchMnSP	S		S
+630	232	SerchMnDS	S		S
+631	227	NapalmMan	N		N
+632	228	NapalmMnSP	N		N
+633	229	NapalmMnDS	N		N
+634	233	MagnetMan	M		M
+635	234	MagnetMnSP	M		M
+636	235	MagnetMnDS	M		M
+637	236	Meddy	M		M
+638	237	MeddySP	M		M
+639	238	MeddyDS	M		M
+640	263	BlizMan	B		B
+641	264	BlizMnSP	B		B
+642	265	BlizMnDS	B		B
+643	260	ShadeMan	S		S
+644	261	ShadeMnSP	S		S
+645	262	ShadeMnDS	S		S
+646	266	CloudMan	C		C
+647	267	CloudMnSP	C		C
+648	268	CloudMnDS	C		C
+649	269	CosmoMan	C		C
+650	270	CosmoMnSP	C		C
+651	271	CosmoMnDS	C		C
+652	272	LarkMan	S		S
+653	273	LarkMnSP	S		S
+654	274	LarkMnDS	S		S
+655	275	GridMan	F		F
+656	276	GridMnSP	F		F
+657	277	GridMnDS	F		F
+658	278	Django	D		D
+659	279	DjangoSP	D		D
+660	280	DjangoDS	D		D
+901	302	DeltaRay	Z	Z	
+902	308	BigHook	G	G	
+903	301	Bass	F	F	
+904	307	HolyDrem	H	H	
+905	303	BugCurse	C	C	
+906	314	DethPhnx	D	D	
+D01	188	DrkSword	Z	Z	
+D02	197	DarkTorn	T	T	
+D03	187	DarkCirc	R	R	
+D04	195	DarkMetr	F	F	
+D05	193	DarkThnd	M	M	
+D06	194	DrkRecov	H	H	
+D07	198	DrkSonic	E	E	
+D08	189	DarkInvs	I, *	I, *	
+D09	190	DarkPlus	*	*	
+D10	191	DrkLance	W	W	
+D11	196	DarkDril	D	D	
+D12	192	DarkWide	T	T	
+S01	245	Colonel	C		C
+S02	246	ColonelSP	C		C
+S03	247	ColonelDS	C		C
+S04	248	ShadoMan	S		S
+S05	249	ShadoMnSP	S		S
+S06	250	ShadoMnDS	S		S
+S07	242	NumbrMan	N		N
+S08	243	NumbrMnSP	N		N
+S09	244	NumbrMnDS	N		N
+S10	251	TmhwkMan	T		T
+S11	252	TmhwkMnSP	T		T
+S12	253	TmhwkMnDS	T		T
+S13	254	KnightMan	K		K
+S14	255	KnigtMnSP	K		K
+S15	256	KnigtMnDS	K		K
+S16	257	ToadMan	T		T
+S17	258	ToadMnSP	T		T
+S18	259	ToadMnDS	T		T
+S19	215	Otenko	O		O
+S20	219	GunDelEX	G		G
+S21	311	LeadRaid	L	L	
+S22	312	ChaosLrd	X	X	
